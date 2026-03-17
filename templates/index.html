@@ -1,0 +1,727 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prompt Quality Analyzer</title>
+    <style>
+      /* ========== RESET & BASE ========== */
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      :root {
+        --bg: #0f172a;
+        --surface: #1e293b;
+        --surface2: #334155;
+        --border: #475569;
+        --text: #f1f5f9;
+        --text-muted: #94a3b8;
+        --primary: #6366f1;
+        --primary-hover: #818cf8;
+        --green: #22c55e;
+        --green-bg: rgba(34, 197, 94, 0.12);
+        --red: #ef4444;
+        --red-bg: rgba(239, 68, 68, 0.12);
+        --yellow: #eab308;
+        --yellow-bg: rgba(234, 179, 8, 0.12);
+        --radius: 12px;
+        --shadow: 0 4px 24px rgba(0, 0, 0, 0.25);
+      }
+
+      body {
+        font-family:
+          "Segoe UI",
+          system-ui,
+          -apple-system,
+          sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        min-height: 100vh;
+        line-height: 1.6;
+      }
+
+      /* ========== LAYOUT ========== */
+      .container {
+        max-width: 860px;
+        margin: 0 auto;
+        padding: 24px 16px 60px;
+      }
+
+      /* ========== HEADER ========== */
+      header {
+        text-align: center;
+        padding: 40px 0 32px;
+      }
+      header h1 {
+        font-size: 2rem;
+        font-weight: 700;
+        background: linear-gradient(135deg, var(--primary), #a78bfa);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+      header p {
+        color: var(--text-muted);
+        margin-top: 8px;
+        font-size: 1rem;
+      }
+
+      /* ========== CARD ========== */
+      .card {
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: var(--radius);
+        padding: 24px;
+        margin-bottom: 20px;
+        box-shadow: var(--shadow);
+      }
+
+      /* ========== TEXTAREA ========== */
+      .input-group {
+        position: relative;
+      }
+      .input-group label {
+        display: block;
+        font-weight: 600;
+        margin-bottom: 8px;
+        font-size: 0.95rem;
+      }
+      textarea {
+        width: 100%;
+        min-height: 140px;
+        padding: 14px;
+        border: 2px solid var(--border);
+        border-radius: 8px;
+        background: var(--bg);
+        color: var(--text);
+        font-size: 1rem;
+        font-family: inherit;
+        resize: vertical;
+        transition: border-color 0.2s;
+      }
+      textarea:focus {
+        outline: none;
+        border-color: var(--primary);
+      }
+      .char-count {
+        text-align: right;
+        font-size: 0.8rem;
+        color: var(--text-muted);
+        margin-top: 4px;
+      }
+
+      /* ========== BUTTONS ========== */
+      .btn-row {
+        display: flex;
+        gap: 12px;
+        margin-top: 16px;
+        flex-wrap: wrap;
+      }
+      .btn {
+        padding: 12px 28px;
+        border: none;
+        border-radius: 8px;
+        font-size: 1rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.2s;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+      }
+      .btn-primary {
+        background: var(--primary);
+        color: #fff;
+      }
+      .btn-primary:hover {
+        background: var(--primary-hover);
+        transform: translateY(-1px);
+      }
+      .btn-primary:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+        transform: none;
+      }
+      .btn-secondary {
+        background: var(--surface2);
+        color: var(--text);
+      }
+      .btn-secondary:hover {
+        background: var(--border);
+      }
+
+      /* ========== SPINNER ========== */
+      .spinner {
+        width: 18px;
+        height: 18px;
+        border: 2px solid rgba(255, 255, 255, 0.3);
+        border-top-color: #fff;
+        border-radius: 50%;
+        animation: spin 0.6s linear infinite;
+        display: none;
+      }
+      @keyframes spin {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+
+      /* ========== RESULT ========== */
+      #result {
+        display: none;
+      }
+
+      .result-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 10px 20px;
+        border-radius: 999px;
+        font-weight: 700;
+        font-size: 1.1rem;
+      }
+      .badge-high {
+        background: var(--green-bg);
+        color: var(--green);
+        border: 1.5px solid var(--green);
+      }
+      .badge-low {
+        background: var(--red-bg);
+        color: var(--red);
+        border: 1.5px solid var(--red);
+      }
+
+      .confidence-bar {
+        margin-top: 16px;
+      }
+      .confidence-bar label {
+        font-size: 0.85rem;
+        color: var(--text-muted);
+      }
+      .bar-track {
+        height: 10px;
+        background: var(--bg);
+        border-radius: 999px;
+        margin-top: 6px;
+        overflow: hidden;
+      }
+      .bar-fill {
+        height: 100%;
+        border-radius: 999px;
+        transition: width 0.6s ease;
+      }
+
+      /* ========== ANALYSIS GRID ========== */
+      .analysis-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+        gap: 12px;
+        margin-top: 20px;
+      }
+      .analysis-item {
+        background: var(--bg);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        padding: 12px;
+        text-align: center;
+      }
+      .analysis-item .value {
+        font-size: 1.4rem;
+        font-weight: 700;
+        margin-bottom: 4px;
+      }
+      .analysis-item .label-text {
+        font-size: 0.78rem;
+        color: var(--text-muted);
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+      }
+      .check {
+        color: var(--green);
+      }
+      .cross {
+        color: var(--red);
+      }
+
+      /* ========== TIPS ========== */
+      .tips-section {
+        margin-top: 20px;
+      }
+      .tips-section h3 {
+        font-size: 0.95rem;
+        color: var(--yellow);
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+      }
+      .tip-item {
+        background: var(--yellow-bg);
+        border-left: 3px solid var(--yellow);
+        padding: 10px 14px;
+        margin-bottom: 8px;
+        border-radius: 0 8px 8px 0;
+        font-size: 0.9rem;
+        color: var(--text);
+      }
+
+      /* ========== EXAMPLES ========== */
+      .examples-section {
+        margin-top: 8px;
+      }
+      .examples-section h3 {
+        font-size: 0.95rem;
+        margin-bottom: 12px;
+        color: var(--text-muted);
+      }
+      .example-chips {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+      .chip {
+        background: var(--surface2);
+        border: 1px solid var(--border);
+        padding: 8px 14px;
+        border-radius: 999px;
+        font-size: 0.82rem;
+        cursor: pointer;
+        transition: all 0.2s;
+        max-width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      .chip:hover {
+        background: var(--primary);
+        color: #fff;
+        border-color: var(--primary);
+      }
+
+      /* ========== HISTORY ========== */
+      .history-section {
+        margin-top: 8px;
+      }
+      .history-section h3 {
+        font-size: 0.95rem;
+        margin-bottom: 12px;
+        color: var(--text-muted);
+      }
+      .history-empty {
+        color: var(--text-muted);
+        font-size: 0.85rem;
+        font-style: italic;
+      }
+      .history-list {
+        list-style: none;
+      }
+      .history-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 14px;
+        background: var(--bg);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        margin-bottom: 8px;
+        cursor: pointer;
+        transition: background 0.15s;
+      }
+      .history-item:hover {
+        background: var(--surface2);
+      }
+      .history-prompt {
+        flex: 1;
+        font-size: 0.85rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin-right: 12px;
+      }
+      .history-badge {
+        font-size: 0.75rem;
+        padding: 3px 10px;
+        border-radius: 999px;
+        font-weight: 600;
+        white-space: nowrap;
+      }
+
+      /* ========== FOOTER ========== */
+      footer {
+        text-align: center;
+        margin-top: 40px;
+        padding: 20px;
+        color: var(--text-muted);
+        font-size: 0.82rem;
+        border-top: 1px solid var(--border);
+      }
+
+      /* ========== RESPONSIVE ========== */
+      @media (max-width: 600px) {
+        header h1 {
+          font-size: 1.5rem;
+        }
+        .container {
+          padding: 16px 12px 40px;
+        }
+        .card {
+          padding: 16px;
+        }
+        .btn {
+          padding: 10px 20px;
+          font-size: 0.9rem;
+        }
+        textarea {
+          min-height: 120px;
+        }
+        .analysis-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+
+      /* ========== ANIMATION ========== */
+      .fade-in {
+        animation: fadeIn 0.4s ease;
+      }
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(10px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- HEADER -->
+      <header>
+        <h1>&#9889; Prompt Quality Analyzer</h1>
+        <p>Evaluate and improve your AI prompts using Machine Learning</p>
+      </header>
+
+      <!-- INPUT CARD -->
+      <div class="card">
+        <div class="input-group">
+          <label for="promptInput">Enter your prompt:</label>
+          <textarea
+            id="promptInput"
+            placeholder="Type or paste your prompt here...&#10;&#10;Example: Explain artificial intelligence in simple terms with 3 real-world examples."
+            spellcheck="true"
+          ></textarea>
+          <div class="char-count">
+            <span id="wordCount">0</span> words &bull;
+            <span id="charCount">0</span> characters
+          </div>
+        </div>
+        <div class="btn-row">
+          <button
+            class="btn btn-primary"
+            id="analyzeBtn"
+            onclick="analyzePrompt()"
+          >
+            <span id="btnText">Analyze Prompt</span>
+            <div class="spinner" id="spinner"></div>
+          </button>
+          <button class="btn btn-secondary" onclick="clearAll()">Clear</button>
+        </div>
+      </div>
+
+      <!-- RESULT CARD -->
+      <div class="card fade-in" id="result">
+        <div
+          style="
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 12px;
+          "
+        >
+          <div>
+            <div
+              style="
+                font-size: 0.8rem;
+                color: var(--text-muted);
+                margin-bottom: 6px;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+              "
+            >
+              Prediction
+            </div>
+            <span class="result-badge" id="resultBadge"></span>
+          </div>
+          <div
+            id="confidenceSection"
+            class="confidence-bar"
+            style="min-width: 200px; flex: 1; max-width: 300px"
+          >
+            <label>Confidence: <strong id="confidenceText">—</strong></label>
+            <div class="bar-track">
+              <div class="bar-fill" id="confidenceBar" style="width: 0%"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Analysis -->
+        <div class="analysis-grid" id="analysisGrid"></div>
+
+        <!-- Tips -->
+        <div class="tips-section" id="tipsSection" style="display: none">
+          <h3>&#128161; Improvement Tips</h3>
+          <div id="tipsList"></div>
+        </div>
+      </div>
+
+      <!-- EXAMPLES -->
+      <div class="card examples-section">
+        <h3>&#128218; Try an Example</h3>
+        <div class="example-chips">
+          <span class="chip" onclick="useExample(this)">Explain AI</span>
+          <span class="chip" onclick="useExample(this)">What is Python</span>
+          <span class="chip" onclick="useExample(this)">Define blockchain</span>
+          <span class="chip" onclick="useExample(this)"
+            >Explain machine learning in simple terms. Provide 3 real-world
+            examples. Use bullet points.</span
+          >
+          <span class="chip" onclick="useExample(this)"
+            >You are an expert teacher. Explain deep learning step-by-step with
+            practical examples and a summary.</span
+          >
+          <span class="chip" onclick="useExample(this)"
+            >Write a 200-word essay on climate change including introduction,
+            causes, effects, and conclusion.</span
+          >
+        </div>
+      </div>
+
+      <!-- HISTORY -->
+      <div class="card history-section">
+        <h3>&#128336; Recent Analyses</h3>
+        <ul class="history-list" id="historyList">
+          <li class="history-empty" id="historyEmpty">
+            No analyses yet. Try one above!
+          </li>
+        </ul>
+      </div>
+
+      <!-- FOOTER -->
+      <footer>
+        Prompt Quality Analyzer &mdash; Machine Learning Project<br />
+        Built with Python, Scikit-learn, Flask &bull; No Neural Networks &bull;
+        No External APIs
+      </footer>
+    </div>
+
+    <script>
+      // ========== STATE ==========
+      let history = [];
+      const MAX_HISTORY = 10;
+
+      // ========== ELEMENTS ==========
+      const promptInput = document.getElementById("promptInput");
+      const wordCountEl = document.getElementById("wordCount");
+      const charCountEl = document.getElementById("charCount");
+      const analyzeBtn = document.getElementById("analyzeBtn");
+      const btnText = document.getElementById("btnText");
+      const spinner = document.getElementById("spinner");
+      const resultCard = document.getElementById("result");
+      const resultBadge = document.getElementById("resultBadge");
+      const confidenceText = document.getElementById("confidenceText");
+      const confidenceBar = document.getElementById("confidenceBar");
+      const confidenceSection = document.getElementById("confidenceSection");
+      const analysisGrid = document.getElementById("analysisGrid");
+      const tipsSection = document.getElementById("tipsSection");
+      const tipsList = document.getElementById("tipsList");
+      const historyList = document.getElementById("historyList");
+      const historyEmpty = document.getElementById("historyEmpty");
+
+      // ========== WORD/CHAR COUNTER ==========
+      promptInput.addEventListener("input", () => {
+        const text = promptInput.value.trim();
+        const words = text ? text.split(/\s+/).length : 0;
+        wordCountEl.textContent = words;
+        charCountEl.textContent = promptInput.value.length;
+      });
+
+      // Ctrl+Enter to submit
+      promptInput.addEventListener("keydown", (e) => {
+        if (e.ctrlKey && e.key === "Enter") analyzePrompt();
+      });
+
+      // ========== ANALYZE ==========
+      async function analyzePrompt() {
+        const prompt = promptInput.value.trim();
+        if (!prompt) {
+          promptInput.focus();
+          return;
+        }
+
+        // UI loading state
+        analyzeBtn.disabled = true;
+        btnText.textContent = "Analyzing...";
+        spinner.style.display = "inline-block";
+        resultCard.style.display = "none";
+
+        try {
+          const resp = await fetch("/predict", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ prompt }),
+          });
+
+          if (!resp.ok) {
+            const err = await resp.json();
+            alert(err.error || "Something went wrong.");
+            return;
+          }
+
+          const data = await resp.json();
+          showResult(data);
+          addToHistory(data);
+        } catch (err) {
+          alert("Could not connect to server. Make sure app.py is running.");
+        } finally {
+          analyzeBtn.disabled = false;
+          btnText.textContent = "Analyze Prompt";
+          spinner.style.display = "none";
+        }
+      }
+
+      // ========== SHOW RESULT ==========
+      function showResult(data) {
+        resultCard.style.display = "block";
+        resultCard.classList.remove("fade-in");
+        void resultCard.offsetWidth; // reflow
+        resultCard.classList.add("fade-in");
+
+        // Badge
+        const isHigh = data.label === 1;
+        resultBadge.className =
+          "result-badge " + (isHigh ? "badge-high" : "badge-low");
+        resultBadge.innerHTML =
+          (isHigh ? "&#10003; " : "&#10007; ") + data.prediction;
+
+        // Confidence
+        if (data.confidence !== null) {
+          confidenceSection.style.display = "block";
+          confidenceText.textContent = data.confidence + "%";
+          const color =
+            data.confidence >= 80
+              ? "var(--green)"
+              : data.confidence >= 60
+                ? "var(--yellow)"
+                : "var(--red)";
+          confidenceBar.style.width = data.confidence + "%";
+          confidenceBar.style.background = color;
+        } else {
+          confidenceSection.style.display = "none";
+        }
+
+        // Analysis grid
+        const a = data.analysis;
+        analysisGrid.innerHTML = `
+            <div class="analysis-item">
+                <div class="value">${a.word_count}</div>
+                <div class="label-text">Words</div>
+            </div>
+            <div class="analysis-item">
+                <div class="value ${a.has_examples ? "check" : "cross"}">${a.has_examples ? "&#10003;" : "&#10007;"}</div>
+                <div class="label-text">Examples</div>
+            </div>
+            <div class="analysis-item">
+                <div class="value ${a.has_structure ? "check" : "cross"}">${a.has_structure ? "&#10003;" : "&#10007;"}</div>
+                <div class="label-text">Structure</div>
+            </div>
+            <div class="analysis-item">
+                <div class="value ${a.has_constraints ? "check" : "cross"}">${a.has_constraints ? "&#10003;" : "&#10007;"}</div>
+                <div class="label-text">Constraints</div>
+            </div>
+            <div class="analysis-item">
+                <div class="value ${a.has_role ? "check" : "cross"}">${a.has_role ? "&#10003;" : "&#10007;"}</div>
+                <div class="label-text">Role Defined</div>
+            </div>
+        `;
+
+        // Tips
+        if (data.tips && data.tips.length > 0) {
+          tipsSection.style.display = "block";
+          tipsList.innerHTML = data.tips
+            .map((t) => `<div class="tip-item">${t}</div>`)
+            .join("");
+        } else {
+          tipsSection.style.display = "none";
+        }
+
+        // Scroll to result
+        resultCard.scrollIntoView({ behavior: "smooth", block: "nearest" });
+      }
+
+      // ========== HISTORY ==========
+      function addToHistory(data) {
+        history.unshift(data);
+        if (history.length > MAX_HISTORY) history.pop();
+        renderHistory();
+      }
+
+      function renderHistory() {
+        if (history.length === 0) {
+          historyEmpty.style.display = "block";
+          return;
+        }
+        historyEmpty.style.display = "none";
+        historyList.innerHTML = history
+          .map((item, i) => {
+            const isHigh = item.label === 1;
+            const badgeClass = isHigh ? "badge-high" : "badge-low";
+            const badgeText = isHigh ? "HIGH" : "LOW";
+            return `
+                <li class="history-item" onclick="replayHistory(${i})" title="${escapeHtml(item.prompt)}">
+                    <span class="history-prompt">${escapeHtml(item.prompt)}</span>
+                    <span class="history-badge ${badgeClass}">${badgeText}</span>
+                </li>`;
+          })
+          .join("");
+      }
+
+      function replayHistory(index) {
+        const item = history[index];
+        promptInput.value = item.prompt;
+        promptInput.dispatchEvent(new Event("input"));
+        showResult(item);
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }
+
+      // ========== EXAMPLES ==========
+      function useExample(el) {
+        promptInput.value = el.textContent;
+        promptInput.dispatchEvent(new Event("input"));
+        promptInput.focus();
+      }
+
+      // ========== CLEAR ==========
+      function clearAll() {
+        promptInput.value = "";
+        promptInput.dispatchEvent(new Event("input"));
+        resultCard.style.display = "none";
+        promptInput.focus();
+      }
+
+      // ========== UTILS ==========
+      function escapeHtml(text) {
+        const el = document.createElement("span");
+        el.textContent = text;
+        return el.innerHTML;
+      }
+    </script>
+  </body>
+</html>

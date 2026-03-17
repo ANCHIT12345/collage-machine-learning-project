@@ -1,0 +1,1001 @@
+prompt,label
+"Explain data warehousing using the following structure: Problem it solves, How it works internally, When to use it, When NOT to use it, and one real project example.",1
+"Explain climate change as if teaching a 10-year-old. Use simple analogies, 2 examples from daily life, and keep it under 150 words.",1
+"Create a cheat sheet for project management. Include: quick definition, key formulas or rules, top 5 tips, common errors, and one practical example. Keep it concise.",1
+"Provide a beginner-friendly introduction to supply chain management. Cover: what it is, why it matters, how it works, and 3 practical use cases. Use numbered lists.",1
+Brief on electric vehicles,0
+"Explain the concept of graph theory using the Feynman technique. Break it down into simple parts, use an analogy, and give one example. Limit to 200 words.",1
+You are an expert professor. Explain 5G technology to a beginner student step-by-step with practical examples and a summary at the end.,1
+"Write a detailed explanation of behavior driven development covering: 1) Definition, 2) Key concepts, 3) Real-world applications, 4) Advantages and disadvantages. Use clear headings.",1
+"Explain ETL processes with a focus on problem-solving. Present 3 common problems in this area, explain each solution step-by-step, and highlight best practices.",1
+serverless computing,0
+"Explain the concept of recommendation systems using the Feynman technique. Break it down into simple parts, use an analogy, and give one example. Limit to 200 words.",1
+MODEL DEPLOYMENT OVERVIEW,0
+"Provide a critical analysis of calculus applications. Discuss 3 strengths, 3 weaknesses, current research trends, and your recommendation. Support with examples.",1
+"Explain time series analysis with a focus on problem-solving. Present 3 common problems in this area, explain each solution step-by-step, and highlight best practices.",1
+"Design a lesson plan for teaching project management to beginners. Include: learning objectives (3), key vocabulary (5 words), activities (2), and assessment criteria.",1
+"You are mentoring a junior developer. Explain serverless computing with hands-on examples, common mistakes beginners make, and tips for mastering the concept. Use a friendly tone.",1
+Tell me about digital marketing,0
+"Write about decentralized finance from both a theoretical and practical perspective. Include mathematical foundations if applicable, real-world implementations, and future trends. Use structured headings.",1
+"You are a technical writer. Create documentation for 5G technology including: overview, getting started guide, key features, and troubleshooting section. Use markdown formatting.",1
+Help me with space exploration,0
+"Explain transfer learning using the following structure: Problem it solves, How it works internally, When to use it, When NOT to use it, and one real project example.",1
+big data explain,0
+Something about automation testing,0
+Explain agile methodology in simple terms. Provide 3 real-world examples. Use bullet points. Limit your response to 200 words.,1
+Explain recommendation systems,0
+write about digital forensics,0
+Give me renewable energy details,0
+Explain automation testing in simple terms. Provide 3 real-world examples. Use bullet points. Limit your response to 200 words.,1
+"You are a technical writer. Create documentation for information security including: overview, getting started guide, key features, and troubleshooting section. Use markdown formatting.",1
+"You are a senior software engineer. Explain statistical analysis with code examples, best practices, and common pitfalls. Structure your answer with clear sections.",1
+what about probability theory,0
+Info quantum computing,0
+Explain model deployment in simple terms. Provide 3 real-world examples. Use bullet points. Limit your response to 200 words.,1
+EXPLAIN TRANSFER LEARNING,0
+Talk about software architecture,0
+continuous integration?,0
+"Explain the concept of programming paradigms using the Feynman technique. Break it down into simple parts, use an analogy, and give one example. Limit to 200 words.",1
+"Provide a critical analysis of time series analysis. Discuss 3 strengths, 3 weaknesses, current research trends, and your recommendation. Support with examples.",1
+"Write a blog post about web development for a tech audience. Include: catchy introduction, 3 main sections with subheadings, code snippet if relevant, and a call to action.",1
+Info digital forensics,0
+Tell me about embedded systems,0
+give me information security details,0
+Something about model deployment,0
+"You are preparing exam notes. Explain CI CD pipelines covering all important aspects a student should know. Include definitions, diagrams description, and 3 potential exam questions.",1
+Explain mobile app development,0
+blockchain technology explain,0
+"Explain 5G technology in exactly 5 paragraphs: introduction, history, how it works, applications, and future scope. Each paragraph should be 3-4 sentences.",1
+Explain Windows server in simple terms. Provide 3 real-world examples. Use bullet points. Limit your response to 200 words.,1
+Talk about business intelligence,0
+"Explain fraud detection in exactly 5 paragraphs: introduction, history, how it works, applications, and future scope. Each paragraph should be 3-4 sentences.",1
+"Describe ecommerce in a structured format. Include an introduction, 3 main points with examples, and a conclusion. Target audience: college students.",1
+"You are mentoring a junior developer. Explain quantum computing with hands-on examples, common mistakes beginners make, and tips for mastering the concept. Use a friendly tone.",1
+financial technology,0
+"Explain the concept of REST API design using the Feynman technique. Break it down into simple parts, use an analogy, and give one example. Limit to 200 words.",1
+Define reinforcement learning,0
+what about reinforcement learning,0
+"You are preparing exam notes. Explain parallel computing covering all important aspects a student should know. Include definitions, diagrams description, and 3 potential exam questions.",1
+I need info on distributed systems,0
+Define linear algebra,0
+"You are preparing exam notes. Explain climate change covering all important aspects a student should know. Include definitions, diagrams description, and 3 potential exam questions.",1
+Give me computer vision details,0
+graphql explain,0
+"Explain the concept of calculus applications using the Feynman technique. Break it down into simple parts, use an analogy, and give one example. Limit to 200 words.",1
+Help me with microservices,0
+"Provide a critical analysis of Windows server. Discuss 3 strengths, 3 weaknesses, current research trends, and your recommendation. Support with examples.",1
+"Create a cheat sheet for data warehousing. Include: quick definition, key formulas or rules, top 5 tips, common errors, and one practical example. Keep it concise.",1
+"Design a lesson plan for teaching renewable energy to beginners. Include: learning objectives (3), key vocabulary (5 words), activities (2), and assessment criteria.",1
+"Explain the concept of ecommerce using the Feynman technique. Break it down into simple parts, use an analogy, and give one example. Limit to 200 words.",1
+Need to know programming paradigms,0
+"You are preparing exam notes. Explain decentralized finance covering all important aspects a student should know. Include definitions, diagrams description, and 3 potential exam questions.",1
+EXPLAIN RENEWABLE ENERGY,0
+Define blockchain technology,0
+"Summarize edge computing in a professional report format. Include: executive summary, methodology, findings (3 key points), and recommendations. Limit to 300 words.",1
+Write a FAQ section for time series analysis with 5 commonly asked questions and detailed answers. Each answer should be 2-3 sentences with examples where applicable.,1
+what is chatbot development,0
+Help me with CI CD pipelines,0
+"Describe machine learning operations in a structured format. Include an introduction, 3 main points with examples, and a conclusion. Target audience: college students.",1
+What is smart cities,0
+Explain big data in simple terms. Provide 3 real-world examples. Use bullet points. Limit your response to 200 words.,1
+decentralized finance?,0
+Explain transfer learning in simple terms. Provide 3 real-world examples. Use bullet points. Limit your response to 200 words.,1
+Describe augmented reality,0
+Plz explain anomaly detection,0
+photosynthesis?,0
+Brief on database management,0
+"Write about data mining from both a theoretical and practical perspective. Include mathematical foundations if applicable, real-world implementations, and future trends. Use structured headings.",1
+"Write about 5G technology from both a theoretical and practical perspective. Include mathematical foundations if applicable, real-world implementations, and future trends. Use structured headings.",1
+Write a FAQ section for functional programming with 5 commonly asked questions and detailed answers. Each answer should be 2-3 sentences with examples where applicable.,1
+Write a FAQ section for API development with 5 commonly asked questions and detailed answers. Each answer should be 2-3 sentences with examples where applicable.,1
+cloud storage,0
+I need info on embedded systems,0
+Define photosynthesis,0
+"Provide a beginner-friendly introduction to test driven development. Cover: what it is, why it matters, how it works, and 3 practical use cases. Use numbered lists.",1
+Tell me about Windows server,0
+Explain autonomous vehicles in simple terms. Provide 3 real-world examples. Use bullet points. Limit your response to 200 words.,1
+define transfer learning,0
+"Create a cheat sheet for renewable energy. Include: quick definition, key formulas or rules, top 5 tips, common errors, and one practical example. Keep it concise.",1
+Brief on web development,0
+Plz explain image recognition,0
+"Analyze how CI CD pipelines has evolved over the last decade. Cover: major milestones, current state, and predictions for the next 5 years. Use specific dates and examples.",1
+"Explain the concept of programming paradigms using the Feynman technique. Break it down into simple parts, use an analogy, and give one example. Limit to 200 words.",1
+text summarization overview,0
+"Write about anomaly detection from both a theoretical and practical perspective. Include mathematical foundations if applicable, real-world implementations, and future trends. Use structured headings.",1
+explain machine learning operations,0
+"You are a technical writer. Create documentation for cloud storage including: overview, getting started guide, key features, and troubleshooting section. Use markdown formatting.",1
+"Write a detailed explanation of DevOps covering: 1) Definition, 2) Key concepts, 3) Real-world applications, 4) Advantages and disadvantages. Use clear headings.",1
+"Explain software engineering with a focus on problem-solving. Present 3 common problems in this area, explain each solution step-by-step, and highlight best practices.",1
+"Provide a beginner-friendly introduction to compiler design. Cover: what it is, why it matters, how it works, and 3 practical use cases. Use numbered lists.",1
+define game development,0
+"Create a study guide for recommendation systems that includes: key terminology (5 terms), core concepts (3 points), practice questions (3 questions), and further reading suggestions.",1
+Write a FAQ section for GraphQL with 5 commonly asked questions and detailed answers. Each answer should be 2-3 sentences with examples where applicable.,1
+"You are mentoring a junior developer. Explain DevOps with hands-on examples, common mistakes beginners make, and tips for mastering the concept. Use a friendly tone.",1
+"Explain the concept of test driven development using the Feynman technique. Break it down into simple parts, use an analogy, and give one example. Limit to 200 words.",1
+You are an expert professor. Explain linear algebra to a beginner student step-by-step with practical examples and a summary at the end.,1
+need to know blockchain technology,0
+write about virtual reality,0
+electric vehicles explain,0
+"Create a cheat sheet for parallel computing. Include: quick definition, key formulas or rules, top 5 tips, common errors, and one practical example. Keep it concise.",1
+"Summarize optimization techniques in a professional report format. Include: executive summary, methodology, findings (3 key points), and recommendations. Limit to 300 words.",1
+Docker containers explain,0
+"Provide a beginner-friendly introduction to mobile app development. Cover: what it is, why it matters, how it works, and 3 practical use cases. Use numbered lists.",1
+Plz explain DevOps,0
+"You are a technical writer. Create documentation for serverless computing including: overview, getting started guide, key features, and troubleshooting section. Use markdown formatting.",1
+what is quantum computing,0
+Write about web development,0
+Explain functional programming in simple terms. Provide 3 real-world examples. Use bullet points. Limit your response to 200 words.,1
+"Summarize Kubernetes orchestration in a professional report format. Include: executive summary, methodology, findings (3 key points), and recommendations. Limit to 300 words.",1
+Describe distributed systems,0
+"Analyze how test driven development has evolved over the last decade. Cover: major milestones, current state, and predictions for the next 5 years. Use specific dates and examples.",1
+"Explain the concept of climate change using the Feynman technique. Break it down into simple parts, use an analogy, and give one example. Limit to 200 words.",1
+Compare and contrast image recognition with its closest alternative. Present your answer in a table format with at least 5 comparison points.,1
+"Analyze how virtual reality has evolved over the last decade. Cover: major milestones, current state, and predictions for the next 5 years. Use specific dates and examples.",1
+I NEED INFO ON DATABASE MANAGEMENT,0
+"Explain fraud detection in exactly 5 paragraphs: introduction, history, how it works, applications, and future scope. Each paragraph should be 3-4 sentences.",1
+"You are a senior software engineer. Explain project management with code examples, best practices, and common pitfalls. Structure your answer with clear sections.",1
+WHAT ABOUT MOBILE APP DEVELOPMENT,0
+graph theory explain,0
+What about fraud detection,0
+give me compiler design details,0
+Tell me about Docker containers,0
+Plz explain microservices,0
+write about software engineering,0
+"Create a study guide for cloud storage that includes: key terminology (5 terms), core concepts (3 points), practice questions (3 questions), and further reading suggestions.",1
+what about automation testing,0
+"You are mentoring a junior developer. Explain embedded systems with hands-on examples, common mistakes beginners make, and tips for mastering the concept. Use a friendly tone.",1
+"Summarize calculus applications in a professional report format. Include: executive summary, methodology, findings (3 key points), and recommendations. Limit to 300 words.",1
+"Create a cheat sheet for agile methodology. Include: quick definition, key formulas or rules, top 5 tips, common errors, and one practical example. Keep it concise.",1
+Info predictive analytics,0
+"Write about computer vision from both a theoretical and practical perspective. Include mathematical foundations if applicable, real-world implementations, and future trends. Use structured headings.",1
+PREDICTIVE ANALYTICS,0
+"Describe image recognition in a structured format. Include an introduction, 3 main points with examples, and a conclusion. Target audience: college students.",1
+Something about CI CD pipelines,0
+"Design a lesson plan for teaching recommendation systems to beginners. Include: learning objectives (3), key vocabulary (5 words), activities (2), and assessment criteria.",1
+I need info on serverless computing,0
+"Describe transfer learning in a structured format. Include an introduction, 3 main points with examples, and a conclusion. Target audience: college students.",1
+Write about design patterns,0
+talk about probability theory,0
+"Provide a critical analysis of Windows server. Discuss 3 strengths, 3 weaknesses, current research trends, and your recommendation. Support with examples.",1
+write about behavior driven development,0
+"You are a senior software engineer. Explain agile methodology with code examples, best practices, and common pitfalls. Structure your answer with clear sections.",1
+Compare and contrast machine learning operations with its closest alternative. Present your answer in a table format with at least 5 comparison points.,1
+Write a FAQ section for blockchain technology with 5 commonly asked questions and detailed answers. Each answer should be 2-3 sentences with examples where applicable.,1
+Write a FAQ section for financial technology with 5 commonly asked questions and detailed answers. Each answer should be 2-3 sentences with examples where applicable.,1
+"Summarize ethical hacking in a professional report format. Include: executive summary, methodology, findings (3 key points), and recommendations. Limit to 300 words.",1
+"Write about database management from both a theoretical and practical perspective. Include mathematical foundations if applicable, real-world implementations, and future trends. Use structured headings.",1
+"Create a cheat sheet for fraud detection. Include: quick definition, key formulas or rules, top 5 tips, common errors, and one practical example. Keep it concise.",1
+PLZ EXPLAIN PHOTOSYNTHESIS,0
+"Provide a critical analysis of Python programming. Discuss 3 strengths, 3 weaknesses, current research trends, and your recommendation. Support with examples.",1
+Define web development,0
+Define sentiment analysis,0
+time series analysis,0
+continuous integration explain,0
+Need to know information security,0
+"Write a comprehensive guide on Linux administration. Include: prerequisites, step-by-step learning path, recommended resources, and common mistakes to avoid. Format with bullet points.",1
+API development overview,0
+Plz explain programming paradigms,0
+Brief on DevOps,0
+PLZ EXPLAIN FEATURE ENGINEERING,0
+"Provide a beginner-friendly introduction to API development. Cover: what it is, why it matters, how it works, and 3 practical use cases. Use numbered lists.",1
+"Provide a beginner-friendly introduction to calculus applications. Cover: what it is, why it matters, how it works, and 3 practical use cases. Use numbered lists.",1
+write about compiler design,0
+"Explain the concept of Python programming using the Feynman technique. Break it down into simple parts, use an analogy, and give one example. Limit to 200 words.",1
+What about UI UX design,0
+"Explain data science with a focus on problem-solving. Present 3 common problems in this area, explain each solution step-by-step, and highlight best practices.",1
+Write a FAQ section for chatbot development with 5 commonly asked questions and detailed answers. Each answer should be 2-3 sentences with examples where applicable.,1
+Help me with time series analysis,0
+Info API development,0
+Tell me about clean code principles,0
+"Provide a beginner-friendly introduction to microservices. Cover: what it is, why it matters, how it works, and 3 practical use cases. Use numbered lists.",1
+"Analyze how genetic engineering has evolved over the last decade. Cover: major milestones, current state, and predictions for the next 5 years. Use specific dates and examples.",1
+"Describe blockchain technology in a structured format. Include an introduction, 3 main points with examples, and a conclusion. Target audience: college students.",1
+"Explain the concept of version control using the Feynman technique. Break it down into simple parts, use an analogy, and give one example. Limit to 200 words.",1
+Explain GraphQL in simple terms. Provide 3 real-world examples. Use bullet points. Limit your response to 200 words.,1
+Something about digital forensics,0
+Describe project management,0
+What is statistical analysis,0
+what about graphql,0
+neural networks,0
+Write a FAQ section for object oriented programming with 5 commonly asked questions and detailed answers. Each answer should be 2-3 sentences with examples where applicable.,1
+What about time series analysis,0
+I need info on anomaly detection,0
+"Analyze how API development has evolved over the last decade. Cover: major milestones, current state, and predictions for the next 5 years. Use specific dates and examples.",1
+"Explain quantum computing as if teaching a 10-year-old. Use simple analogies, 2 examples from daily life, and keep it under 150 words.",1
+"Provide a critical analysis of ecommerce. Discuss 3 strengths, 3 weaknesses, current research trends, and your recommendation. Support with examples.",1
+"Analyze how web development has evolved over the last decade. Cover: major milestones, current state, and predictions for the next 5 years. Use specific dates and examples.",1
+"Explain robotics using the following structure: Problem it solves, How it works internally, When to use it, When NOT to use it, and one real project example.",1
+algorithms overview,0
+"You are mentoring a junior developer. Explain cloud computing with hands-on examples, common mistakes beginners make, and tips for mastering the concept. Use a friendly tone.",1
+programming paradigms explain,0
+"Explain the concept of blockchain technology using the Feynman technique. Break it down into simple parts, use an analogy, and give one example. Limit to 200 words.",1
+Brief on Docker containers,0
+SOMETHING ABOUT CRYPTOCURRENCY,0
+"You are a senior software engineer. Explain data structures with code examples, best practices, and common pitfalls. Structure your answer with clear sections.",1
+You are an expert professor. Explain parallel computing to a beginner student step-by-step with practical examples and a summary at the end.,1
+"Explain human computer interaction in exactly 5 paragraphs: introduction, history, how it works, applications, and future scope. Each paragraph should be 3-4 sentences.",1
+Info fraud detection,0
+"Explain speech recognition in exactly 5 paragraphs: introduction, history, how it works, applications, and future scope. Each paragraph should be 3-4 sentences.",1
+containerization explain,0
+"Explain sentiment analysis with a focus on problem-solving. Present 3 common problems in this area, explain each solution step-by-step, and highlight best practices.",1
+"Create a study guide for parallel computing that includes: key terminology (5 terms), core concepts (3 points), practice questions (3 questions), and further reading suggestions.",1
+explain calculus applications,0
+Compare and contrast algorithms with its closest alternative. Present your answer in a table format with at least 5 comparison points.,1
+"Write a detailed explanation of serverless computing covering: 1) Definition, 2) Key concepts, 3) Real-world applications, 4) Advantages and disadvantages. Use clear headings.",1
+natural language processing overview,0
+"Describe computer vision in a structured format. Include an introduction, 3 main points with examples, and a conclusion. Target audience: college students.",1
+Plz explain serverless computing,0
+"Explain cybersecurity in exactly 5 paragraphs: introduction, history, how it works, applications, and future scope. Each paragraph should be 3-4 sentences.",1
+Write about virtual reality,0
+You are an expert professor. Explain data mining to a beginner student step-by-step with practical examples and a summary at the end.,1
+"Explain version control as if teaching a 10-year-old. Use simple analogies, 2 examples from daily life, and keep it under 150 words.",1
+neural networks overview,0
+"Write a comprehensive guide on renewable energy. Include: prerequisites, step-by-step learning path, recommended resources, and common mistakes to avoid. Format with bullet points.",1
+plz explain design patterns,0
+"Write about blockchain technology from both a theoretical and practical perspective. Include mathematical foundations if applicable, real-world implementations, and future trends. Use structured headings.",1
+Explain operating systems,0
+Write about sentiment analysis,0
+Tell me about UI UX design,0
+"Provide a beginner-friendly introduction to financial technology. Cover: what it is, why it matters, how it works, and 3 practical use cases. Use numbered lists.",1
+machine learning operations overview,0
+plz explain cybersecurity,0
+Plz explain cybersecurity,0
+Talk about business intelligence,0
+"You are mentoring a junior developer. Explain neural networks with hands-on examples, common mistakes beginners make, and tips for mastering the concept. Use a friendly tone.",1
+"Analyze how data science has evolved over the last decade. Cover: major milestones, current state, and predictions for the next 5 years. Use specific dates and examples.",1
+ethical hacking?,0
+Define ecommerce,0
+PLZ EXPLAIN NATURAL LANGUAGE PROCESSING,0
+I need info on climate change,0
+Define text summarization,0
+WHAT ABOUT AGILE METHODOLOGY,0
+TELL ME ABOUT PROBABILITY THEORY,0
+"Explain digital forensics with a focus on problem-solving. Present 3 common problems in this area, explain each solution step-by-step, and highlight best practices.",1
+"Design a lesson plan for teaching reinforcement learning to beginners. Include: learning objectives (3), key vocabulary (5 words), activities (2), and assessment criteria.",1
+"Create a cheat sheet for game development. Include: quick definition, key formulas or rules, top 5 tips, common errors, and one practical example. Keep it concise.",1
+Tell me about financial technology,0
+Something about CI CD pipelines,0
+"Explain space exploration with a focus on problem-solving. Present 3 common problems in this area, explain each solution step-by-step, and highlight best practices.",1
+"Provide a beginner-friendly introduction to version control. Cover: what it is, why it matters, how it works, and 3 practical use cases. Use numbered lists.",1
+Compare and contrast transfer learning with its closest alternative. Present your answer in a table format with at least 5 comparison points.,1
+Need to know quantum computing,0
+"Explain Linux administration with a focus on problem-solving. Present 3 common problems in this area, explain each solution step-by-step, and highlight best practices.",1
+Brief on functional programming,0
+talk about model deployment,0
+Help me with web development,0
+algorithms,0
+"Explain the concept of cloud computing using the Feynman technique. Break it down into simple parts, use an analogy, and give one example. Limit to 200 words.",1
+"Write a comprehensive guide on digital forensics. Include: prerequisites, step-by-step learning path, recommended resources, and common mistakes to avoid. Format with bullet points.",1
+Help me with cybersecurity,0
+"Create a cheat sheet for speech recognition. Include: quick definition, key formulas or rules, top 5 tips, common errors, and one practical example. Keep it concise.",1
+Info clustering algorithms,0
+talk about natural language processing,0
+PLZ EXPLAIN OPERATING SYSTEMS,0
+Write a FAQ section for model deployment with 5 commonly asked questions and detailed answers. Each answer should be 2-3 sentences with examples where applicable.,1
+i need info on model deployment,0
+Compare and contrast business intelligence with its closest alternative. Present your answer in a table format with at least 5 comparison points.,1
+I need info on financial technology,0
+genetic engineering overview,0
+"Analyze how augmented reality has evolved over the last decade. Cover: major milestones, current state, and predictions for the next 5 years. Use specific dates and examples.",1
+Talk about web development,0
+"Write about behavior driven development from both a theoretical and practical perspective. Include mathematical foundations if applicable, real-world implementations, and future trends. Use structured headings.",1
+"Explain programming paradigms as if teaching a 10-year-old. Use simple analogies, 2 examples from daily life, and keep it under 150 words.",1
+"Explain cloud computing in exactly 5 paragraphs: introduction, history, how it works, applications, and future scope. Each paragraph should be 3-4 sentences.",1
+network security?,0
+GIVE ME COMPUTER NETWORKING DETAILS,0
+Tell me about 5G technology,0
+You are an expert professor. Explain smart cities to a beginner student step-by-step with practical examples and a summary at the end.,1
+Need to know big data,0
+MACHINE LEARNING,0
+What is robotics,0
+"Explain the concept of supply chain management using the Feynman technique. Break it down into simple parts, use an analogy, and give one example. Limit to 200 words.",1
+"Provide a beginner-friendly introduction to containerization. Cover: what it is, why it matters, how it works, and 3 practical use cases. Use numbered lists.",1
+"Describe Kubernetes orchestration in a structured format. Include an introduction, 3 main points with examples, and a conclusion. Target audience: college students.",1
+Compare and contrast computer vision with its closest alternative. Present your answer in a table format with at least 5 comparison points.,1
+DEFINE ECOMMERCE,0
+Info containerization,0
+info containerization,0
+Explain database management in simple terms. Provide 3 real-world examples. Use bullet points. Limit your response to 200 words.,1
+Define API development,0
+Talk about penetration testing,0
+anomaly detection,0
+"Design a lesson plan for teaching data structures to beginners. Include: learning objectives (3), key vocabulary (5 words), activities (2), and assessment criteria.",1
+Give me decentralized finance details,0
+INTERNET OF THINGS EXPLAIN,0
+WHAT IS SPEECH RECOGNITION,0
+Explain programming paradigms in simple terms. Provide 3 real-world examples. Use bullet points. Limit your response to 200 words.,1
+Write a FAQ section for network security with 5 commonly asked questions and detailed answers. Each answer should be 2-3 sentences with examples where applicable.,1
+image recognition explain,0
+"Provide a critical analysis of continuous integration. Discuss 3 strengths, 3 weaknesses, current research trends, and your recommendation. Support with examples.",1
+"You are preparing exam notes. Explain computer vision covering all important aspects a student should know. Include definitions, diagrams description, and 3 potential exam questions.",1
+"Explain distributed systems in exactly 5 paragraphs: introduction, history, how it works, applications, and future scope. Each paragraph should be 3-4 sentences.",1
+"Explain network security using the following structure: Problem it solves, How it works internally, When to use it, When NOT to use it, and one real project example.",1
+You are an expert professor. Explain design patterns to a beginner student step-by-step with practical examples and a summary at the end.,1
+"Describe test driven development in a structured format. Include an introduction, 3 main points with examples, and a conclusion. Target audience: college students.",1
+"Write about cloud storage from both a theoretical and practical perspective. Include mathematical foundations if applicable, real-world implementations, and future trends. Use structured headings.",1
+What is object oriented programming,0
+Plz explain concurrent programming,0
+Help me with internet of things,0
+Explain web development,0
+"Write about GraphQL from both a theoretical and practical perspective. Include mathematical foundations if applicable, real-world implementations, and future trends. Use structured headings.",1
+Need to know machine learning operations,0
+explain artificial intelligence,0
+What is photosynthesis,0
+Give me photosynthesis details,0
+Write a FAQ section for anomaly detection with 5 commonly asked questions and detailed answers. Each answer should be 2-3 sentences with examples where applicable.,1
+"Write a blog post about automation testing for a tech audience. Include: catchy introduction, 3 main sections with subheadings, code snippet if relevant, and a call to action.",1
+"Explain the concept of artificial intelligence using the Feynman technique. Break it down into simple parts, use an analogy, and give one example. Limit to 200 words.",1
+I NEED INFO ON FRAUD DETECTION,0
+Help me with signal processing,0
+"Explain speech recognition in exactly 5 paragraphs: introduction, history, how it works, applications, and future scope. Each paragraph should be 3-4 sentences.",1
+BUSINESS INTELLIGENCE?,0
+"Describe distributed systems in a structured format. Include an introduction, 3 main points with examples, and a conclusion. Target audience: college students.",1
+linear algebra,0
+You are an expert professor. Explain compiler design to a beginner student step-by-step with practical examples and a summary at the end.,1
+"Create a study guide for automation testing that includes: key terminology (5 terms), core concepts (3 points), practice questions (3 questions), and further reading suggestions.",1
+FINANCIAL TECHNOLOGY OVERVIEW,0
+What about data structures,0
+"You are preparing exam notes. Explain Windows server covering all important aspects a student should know. Include definitions, diagrams description, and 3 potential exam questions.",1
+"Provide a critical analysis of space exploration. Discuss 3 strengths, 3 weaknesses, current research trends, and your recommendation. Support with examples.",1
+"Summarize project management in a professional report format. Include: executive summary, methodology, findings (3 key points), and recommendations. Limit to 300 words.",1
+Write a FAQ section for information security with 5 commonly asked questions and detailed answers. Each answer should be 2-3 sentences with examples where applicable.,1
+time series analysis explain,0
+Something about digital forensics,0
+Give me software engineering details,0
+Need to know functional programming,0
+speech recognition overview,0
+Plz explain smart cities,0
+"Design a lesson plan for teaching cloud computing to beginners. Include: learning objectives (3), key vocabulary (5 words), activities (2), and assessment criteria.",1
+"Create a study guide for Kubernetes orchestration that includes: key terminology (5 terms), core concepts (3 points), practice questions (3 questions), and further reading suggestions.",1
+Something about computer networking,0
+"You are a technical writer. Create documentation for quantum computing including: overview, getting started guide, key features, and troubleshooting section. Use markdown formatting.",1
+What is virtual reality,0
+Tell me about speech recognition,0
+"You are mentoring a junior developer. Explain data visualization with hands-on examples, common mistakes beginners make, and tips for mastering the concept. Use a friendly tone.",1
+fraud detection,0
+Something about mobile app development,0
+Need to know artificial intelligence,0
+Brief on game development,0
+renewable energy overview,0
+Need to know healthcare technology,0
+Need to know genetic engineering,0
+talk about concurrent programming,0
+"You are a senior software engineer. Explain GraphQL with code examples, best practices, and common pitfalls. Structure your answer with clear sections.",1
+Need to know model deployment,0
+talk about decentralized finance,0
+Plz explain fraud detection,0
+Info photosynthesis,0
+Explain chatbot development in simple terms. Provide 3 real-world examples. Use bullet points. Limit your response to 200 words.,1
+need to know cryptocurrency,0
+Give me model deployment details,0
+"Explain artificial intelligence as if teaching a 10-year-old. Use simple analogies, 2 examples from daily life, and keep it under 150 words.",1
+INFO BUSINESS INTELLIGENCE,0
+"You are preparing exam notes. Explain compiler design covering all important aspects a student should know. Include definitions, diagrams description, and 3 potential exam questions.",1
+clustering algorithms explain,0
+data mining explain,0
+Define model deployment,0
+"Write about neural networks from both a theoretical and practical perspective. Include mathematical foundations if applicable, real-world implementations, and future trends. Use structured headings.",1
+Talk about probability theory,0
+I NEED INFO ON ETHICAL HACKING,0
+"Describe GraphQL in a structured format. Include an introduction, 3 main points with examples, and a conclusion. Target audience: college students.",1
+Write a FAQ section for data structures with 5 commonly asked questions and detailed answers. Each answer should be 2-3 sentences with examples where applicable.,1
+Tell me about concurrent programming,0
+penetration testing overview,0
+"Explain game development as if teaching a 10-year-old. Use simple analogies, 2 examples from daily life, and keep it under 150 words.",1
+Write about augmented reality,0
+Define digital forensics,0
+"Explain anomaly detection as if teaching a 10-year-old. Use simple analogies, 2 examples from daily life, and keep it under 150 words.",1
+"Create a cheat sheet for behavior driven development. Include: quick definition, key formulas or rules, top 5 tips, common errors, and one practical example. Keep it concise.",1
+Describe ecommerce,0
+"Describe penetration testing in a structured format. Include an introduction, 3 main points with examples, and a conclusion. Target audience: college students.",1
+"Describe Python programming in a structured format. Include an introduction, 3 main points with examples, and a conclusion. Target audience: college students.",1
+Talk about chatbot development,0
+DEFINE PROBABILITY THEORY,0
+"Create a study guide for business intelligence that includes: key terminology (5 terms), core concepts (3 points), practice questions (3 questions), and further reading suggestions.",1
+need to know devops,0
+"Explain supply chain management using the following structure: Problem it solves, How it works internally, When to use it, When NOT to use it, and one real project example.",1
+UI UX design,0
+Help me with operating systems,0
+Brief on virtual reality,0
+"Write a comprehensive guide on Windows server. Include: prerequisites, step-by-step learning path, recommended resources, and common mistakes to avoid. Format with bullet points.",1
+"You are a senior software engineer. Explain neural networks with code examples, best practices, and common pitfalls. Structure your answer with clear sections.",1
+need to know climate change,0
+brief on cloud storage,0
+"Provide a beginner-friendly introduction to reinforcement learning. Cover: what it is, why it matters, how it works, and 3 practical use cases. Use numbered lists.",1
+"Explain concurrent programming with a focus on problem-solving. Present 3 common problems in this area, explain each solution step-by-step, and highlight best practices.",1
+"Explain the concept of graph theory using the Feynman technique. Break it down into simple parts, use an analogy, and give one example. Limit to 200 words.",1
+"Explain information security with a focus on problem-solving. Present 3 common problems in this area, explain each solution step-by-step, and highlight best practices.",1
+"Create a cheat sheet for business intelligence. Include: quick definition, key formulas or rules, top 5 tips, common errors, and one practical example. Keep it concise.",1
+Info database management,0
+mobile app development,0
+Compare and contrast model deployment with its closest alternative. Present your answer in a table format with at least 5 comparison points.,1
+"Explain design patterns as if teaching a 10-year-old. Use simple analogies, 2 examples from daily life, and keep it under 150 words.",1
+"Explain artificial intelligence as if teaching a 10-year-old. Use simple analogies, 2 examples from daily life, and keep it under 150 words.",1
+"You are preparing exam notes. Explain 5G technology covering all important aspects a student should know. Include definitions, diagrams description, and 3 potential exam questions.",1
+write about ethical hacking,0
+"Explain virtual reality in exactly 5 paragraphs: introduction, history, how it works, applications, and future scope. Each paragraph should be 3-4 sentences.",1
+"Write a comprehensive guide on predictive analytics. Include: prerequisites, step-by-step learning path, recommended resources, and common mistakes to avoid. Format with bullet points.",1
+"You are a technical writer. Create documentation for embedded systems including: overview, getting started guide, key features, and troubleshooting section. Use markdown formatting.",1
+Write a FAQ section for digital forensics with 5 commonly asked questions and detailed answers. Each answer should be 2-3 sentences with examples where applicable.,1
+"Create a cheat sheet for continuous integration. Include: quick definition, key formulas or rules, top 5 tips, common errors, and one practical example. Keep it concise.",1
+help me with space exploration,0
+Tell me about speech recognition,0
+"Explain cloud computing in exactly 5 paragraphs: introduction, history, how it works, applications, and future scope. Each paragraph should be 3-4 sentences.",1
+natural language processing,0
+"You are preparing exam notes. Explain space exploration covering all important aspects a student should know. Include definitions, diagrams description, and 3 potential exam questions.",1
+GIVE ME COMPILER DESIGN DETAILS,0
+explain design patterns,0
+brief on natural language processing,0
+Give me algorithms details,0
+"You are preparing exam notes. Explain ETL processes covering all important aspects a student should know. Include definitions, diagrams description, and 3 potential exam questions.",1
+Info GraphQL,0
+Help me with algorithms,0
+chatbot development,0
+WRITE ABOUT EMBEDDED SYSTEMS,0
+Info Windows server,0
+What about edge computing,0
+SOMETHING ABOUT SENTIMENT ANALYSIS,0
+Info design patterns,0
+need to know optimization techniques,0
+"Write a blog post about calculus applications for a tech audience. Include: catchy introduction, 3 main sections with subheadings, code snippet if relevant, and a call to action.",1
+Write a FAQ section for image recognition with 5 commonly asked questions and detailed answers. Each answer should be 2-3 sentences with examples where applicable.,1
+plz explain predictive analytics,0
+Explain REST API design in simple terms. Provide 3 real-world examples. Use bullet points. Limit your response to 200 words.,1
+"Write about big data from both a theoretical and practical perspective. Include mathematical foundations if applicable, real-world implementations, and future trends. Use structured headings.",1
+"Provide a critical analysis of linear algebra. Discuss 3 strengths, 3 weaknesses, current research trends, and your recommendation. Support with examples.",1
+"Explain graph theory in exactly 5 paragraphs: introduction, history, how it works, applications, and future scope. Each paragraph should be 3-4 sentences.",1
+"You are mentoring a junior developer. Explain distributed systems with hands-on examples, common mistakes beginners make, and tips for mastering the concept. Use a friendly tone.",1
+"Explain probability theory with a focus on problem-solving. Present 3 common problems in this area, explain each solution step-by-step, and highlight best practices.",1
+ETL processes,0
+"Write a comprehensive guide on mobile app development. Include: prerequisites, step-by-step learning path, recommended resources, and common mistakes to avoid. Format with bullet points.",1
+"Design a lesson plan for teaching healthcare technology to beginners. Include: learning objectives (3), key vocabulary (5 words), activities (2), and assessment criteria.",1
+"You are preparing exam notes. Explain ecommerce covering all important aspects a student should know. Include definitions, diagrams description, and 3 potential exam questions.",1
+"You are preparing exam notes. Explain serverless computing covering all important aspects a student should know. Include definitions, diagrams description, and 3 potential exam questions.",1
+Give me robotics details,0
+I need info on reinforcement learning,0
+describe linear algebra,0
+Explain linear algebra in simple terms. Provide 3 real-world examples. Use bullet points. Limit your response to 200 words.,1
+Compare and contrast predictive analytics with its closest alternative. Present your answer in a table format with at least 5 comparison points.,1
+"Explain cybersecurity with a focus on problem-solving. Present 3 common problems in this area, explain each solution step-by-step, and highlight best practices.",1
+NEED TO KNOW ANOMALY DETECTION,0
+Describe sentiment analysis,0
+Write about text summarization,0
+What about model deployment,0
+"Create a cheat sheet for cryptocurrency. Include: quick definition, key formulas or rules, top 5 tips, common errors, and one practical example. Keep it concise.",1
+"Explain ethical hacking with a focus on problem-solving. Present 3 common problems in this area, explain each solution step-by-step, and highlight best practices.",1
+Need to know machine learning operations,0
+Talk about computer networking,0
+Something about network security,0
+Info Docker containers,0
+"Explain clustering algorithms as if teaching a 10-year-old. Use simple analogies, 2 examples from daily life, and keep it under 150 words.",1
+What is virtual reality,0
+Plz explain 5G technology,0
+data structures,0
+You are an expert professor. Explain deep learning to a beginner student step-by-step with practical examples and a summary at the end.,1
+I need info on smart cities,0
+microservices?,0
+"Describe algorithms in a structured format. Include an introduction, 3 main points with examples, and a conclusion. Target audience: college students.",1
+"You are a senior software engineer. Explain object oriented programming with code examples, best practices, and common pitfalls. Structure your answer with clear sections.",1
+"Write a comprehensive guide on probability theory. Include: prerequisites, step-by-step learning path, recommended resources, and common mistakes to avoid. Format with bullet points.",1
+"Explain Windows server using the following structure: Problem it solves, How it works internally, When to use it, When NOT to use it, and one real project example.",1
+"Explain microservices as if teaching a 10-year-old. Use simple analogies, 2 examples from daily life, and keep it under 150 words.",1
+"Create a cheat sheet for ETL processes. Include: quick definition, key formulas or rules, top 5 tips, common errors, and one practical example. Keep it concise.",1
+I need info on blockchain technology,0
+Help me with cloud computing,0
+Help me with serverless computing,0
+"Provide a beginner-friendly introduction to cybersecurity. Cover: what it is, why it matters, how it works, and 3 practical use cases. Use numbered lists.",1
+DEFINE DISTRIBUTED SYSTEMS,0
+I need info on quantum computing,0
+Brief on reinforcement learning,0
+Describe object oriented programming,0
+What about robotics,0
+Explain UI UX design in simple terms. Provide 3 real-world examples. Use bullet points. Limit your response to 200 words.,1
+"Write a detailed explanation of machine learning covering: 1) Definition, 2) Key concepts, 3) Real-world applications, 4) Advantages and disadvantages. Use clear headings.",1
+"Provide a critical analysis of version control. Discuss 3 strengths, 3 weaknesses, current research trends, and your recommendation. Support with examples.",1
+Write about game development,0
+Brief on recommendation systems,0
+Something about software architecture,0
+Plz explain internet of things,0
+What is penetration testing,0
+"You are preparing exam notes. Explain neural networks covering all important aspects a student should know. Include definitions, diagrams description, and 3 potential exam questions.",1
+"Design a lesson plan for teaching cloud computing to beginners. Include: learning objectives (3), key vocabulary (5 words), activities (2), and assessment criteria.",1
+"Explain time series analysis with a focus on problem-solving. Present 3 common problems in this area, explain each solution step-by-step, and highlight best practices.",1
+PLZ EXPLAIN CLEAN CODE PRINCIPLES,0
+Docker containers overview,0
+"Explain cryptocurrency in exactly 5 paragraphs: introduction, history, how it works, applications, and future scope. Each paragraph should be 3-4 sentences.",1
+"Create a cheat sheet for virtual reality. Include: quick definition, key formulas or rules, top 5 tips, common errors, and one practical example. Keep it concise.",1
+"Explain operating systems as if teaching a 10-year-old. Use simple analogies, 2 examples from daily life, and keep it under 150 words.",1
+"Provide a critical analysis of ETL processes. Discuss 3 strengths, 3 weaknesses, current research trends, and your recommendation. Support with examples.",1
+Need to know data warehousing,0
+Write a FAQ section for cloud computing with 5 commonly asked questions and detailed answers. Each answer should be 2-3 sentences with examples where applicable.,1
+"Provide a critical analysis of project management. Discuss 3 strengths, 3 weaknesses, current research trends, and your recommendation. Support with examples.",1
+Info human computer interaction,0
+"Design a lesson plan for teaching software engineering to beginners. Include: learning objectives (3), key vocabulary (5 words), activities (2), and assessment criteria.",1
+Talk about probability theory,0
+What is embedded systems,0
+Explain financial technology,0
+"Explain Python programming in exactly 5 paragraphs: introduction, history, how it works, applications, and future scope. Each paragraph should be 3-4 sentences.",1
+Give me concurrent programming details,0
+SOMETHING ABOUT COMPUTER VISION,0
+Write a FAQ section for calculus applications with 5 commonly asked questions and detailed answers. Each answer should be 2-3 sentences with examples where applicable.,1
+Describe project management,0
+sentiment analysis?,0
+You are an expert professor. Explain object oriented programming to a beginner student step-by-step with practical examples and a summary at the end.,1
+"Design a lesson plan for teaching smart cities to beginners. Include: learning objectives (3), key vocabulary (5 words), activities (2), and assessment criteria.",1
+DECENTRALIZED FINANCE,0
+Something about cloud storage,0
+"Explain computer vision using the following structure: Problem it solves, How it works internally, When to use it, When NOT to use it, and one real project example.",1
+"Analyze how ecommerce has evolved over the last decade. Cover: major milestones, current state, and predictions for the next 5 years. Use specific dates and examples.",1
+I NEED INFO ON FRAUD DETECTION,0
+Write a FAQ section for calculus applications with 5 commonly asked questions and detailed answers. Each answer should be 2-3 sentences with examples where applicable.,1
+Help me with machine learning,0
+Explain deep learning in simple terms. Provide 3 real-world examples. Use bullet points. Limit your response to 200 words.,1
+concurrent programming explain,0
+"Create a cheat sheet for DevOps. Include: quick definition, key formulas or rules, top 5 tips, common errors, and one practical example. Keep it concise.",1
+Info data warehousing,0
+"You are a technical writer. Create documentation for microservices including: overview, getting started guide, key features, and troubleshooting section. Use markdown formatting.",1
+Describe API development,0
+define distributed systems,0
+talk about serverless computing,0
+"You are preparing exam notes. Explain clean code principles covering all important aspects a student should know. Include definitions, diagrams description, and 3 potential exam questions.",1
+Define big data,0
+Tell me about graph theory,0
+Explain artificial intelligence,0
+Brief on cybersecurity,0
+PLZ EXPLAIN GRAPHQL,0
+define chatbot development,0
+"Create a cheat sheet for photosynthesis. Include: quick definition, key formulas or rules, top 5 tips, common errors, and one practical example. Keep it concise.",1
+You are an expert professor. Explain data warehousing to a beginner student step-by-step with practical examples and a summary at the end.,1
+"Summarize design patterns in a professional report format. Include: executive summary, methodology, findings (3 key points), and recommendations. Limit to 300 words.",1
+Compare and contrast deep learning with its closest alternative. Present your answer in a table format with at least 5 comparison points.,1
+Give me big data details,0
+smart cities explain,0
+I need info on data mining,0
+"You are a senior software engineer. Explain microservices with code examples, best practices, and common pitfalls. Structure your answer with clear sections.",1
+i need info on mobile app development,0
+"Provide a critical analysis of ecommerce. Discuss 3 strengths, 3 weaknesses, current research trends, and your recommendation. Support with examples.",1
+"Explain version control using the following structure: Problem it solves, How it works internally, When to use it, When NOT to use it, and one real project example.",1
+GIVE ME PROJECT MANAGEMENT DETAILS,0
+test driven development,0
+Tell me about cryptocurrency,0
+Describe cloud computing,0
+Help me with predictive analytics,0
+"Write a detailed explanation of test driven development covering: 1) Definition, 2) Key concepts, 3) Real-world applications, 4) Advantages and disadvantages. Use clear headings.",1
+"Explain quantum computing using the following structure: Problem it solves, How it works internally, When to use it, When NOT to use it, and one real project example.",1
+"You are a technical writer. Create documentation for information security including: overview, getting started guide, key features, and troubleshooting section. Use markdown formatting.",1
+Info data visualization,0
+need to know cloud computing,0
+"You are a technical writer. Create documentation for machine learning operations including: overview, getting started guide, key features, and troubleshooting section. Use markdown formatting.",1
+Describe transfer learning,0
+Brief on cryptocurrency,0
+"Explain the concept of computer networking using the Feynman technique. Break it down into simple parts, use an analogy, and give one example. Limit to 200 words.",1
+Need to know anomaly detection,0
+What is natural language processing,0
+"Explain natural language processing with a focus on problem-solving. Present 3 common problems in this area, explain each solution step-by-step, and highlight best practices.",1
+define probability theory,0
+tell me about algorithms,0
+Write a FAQ section for machine learning operations with 5 commonly asked questions and detailed answers. Each answer should be 2-3 sentences with examples where applicable.,1
+give me financial technology details,0
+I need info on machine learning operations,0
+What about sentiment analysis,0
+"Write a blog post about Windows server for a tech audience. Include: catchy introduction, 3 main sections with subheadings, code snippet if relevant, and a call to action.",1
+write about time series analysis,0
+cloud storage overview,0
+Write a FAQ section for REST API design with 5 commonly asked questions and detailed answers. Each answer should be 2-3 sentences with examples where applicable.,1
+"Write a blog post about computer vision for a tech audience. Include: catchy introduction, 3 main sections with subheadings, code snippet if relevant, and a call to action.",1
+"Explain climate change in exactly 5 paragraphs: introduction, history, how it works, applications, and future scope. Each paragraph should be 3-4 sentences.",1
+Give me data structures details,0
+"Explain computer networking using the following structure: Problem it solves, How it works internally, When to use it, When NOT to use it, and one real project example.",1
+"Describe Python programming in a structured format. Include an introduction, 3 main points with examples, and a conclusion. Target audience: college students.",1
+Write about optimization techniques,0
+I need info on version control,0
+Define decentralized finance,0
+Explain probability theory in simple terms. Provide 3 real-world examples. Use bullet points. Limit your response to 200 words.,1
+"Explain reinforcement learning in exactly 5 paragraphs: introduction, history, how it works, applications, and future scope. Each paragraph should be 3-4 sentences.",1
+Compare and contrast computer networking with its closest alternative. Present your answer in a table format with at least 5 comparison points.,1
+"Write a detailed explanation of algorithms covering: 1) Definition, 2) Key concepts, 3) Real-world applications, 4) Advantages and disadvantages. Use clear headings.",1
+Info automation testing,0
+explain healthcare technology,0
+"Explain linear algebra with a focus on problem-solving. Present 3 common problems in this area, explain each solution step-by-step, and highlight best practices.",1
+"Write about natural language processing from both a theoretical and practical perspective. Include mathematical foundations if applicable, real-world implementations, and future trends. Use structured headings.",1
+Compare and contrast smart cities with its closest alternative. Present your answer in a table format with at least 5 comparison points.,1
+Brief on time series analysis,0
+Write about ethical hacking,0
+recommendation systems,0
+I need info on natural language processing,0
+Write a FAQ section for version control with 5 commonly asked questions and detailed answers. Each answer should be 2-3 sentences with examples where applicable.,1
+"Summarize UI UX design in a professional report format. Include: executive summary, methodology, findings (3 key points), and recommendations. Limit to 300 words.",1
+software engineering?,0
+tell me about clean code principles,0
+"You are preparing exam notes. Explain microservices covering all important aspects a student should know. Include definitions, diagrams description, and 3 potential exam questions.",1
+"Provide a beginner-friendly introduction to digital marketing. Cover: what it is, why it matters, how it works, and 3 practical use cases. Use numbered lists.",1
+What about text summarization,0
+data visualization,0
+"Write a detailed explanation of algorithms covering: 1) Definition, 2) Key concepts, 3) Real-world applications, 4) Advantages and disadvantages. Use clear headings.",1
+"You are a senior software engineer. Explain internet of things with code examples, best practices, and common pitfalls. Structure your answer with clear sections.",1
+Compare and contrast mobile app development with its closest alternative. Present your answer in a table format with at least 5 comparison points.,1
+"You are mentoring a junior developer. Explain serverless computing with hands-on examples, common mistakes beginners make, and tips for mastering the concept. Use a friendly tone.",1
+"Explain computer vision in exactly 5 paragraphs: introduction, history, how it works, applications, and future scope. Each paragraph should be 3-4 sentences.",1
+Write a FAQ section for supply chain management with 5 commonly asked questions and detailed answers. Each answer should be 2-3 sentences with examples where applicable.,1
+"You are a technical writer. Create documentation for graph theory including: overview, getting started guide, key features, and troubleshooting section. Use markdown formatting.",1
+What is machine learning,0
+"Analyze how transfer learning has evolved over the last decade. Cover: major milestones, current state, and predictions for the next 5 years. Use specific dates and examples.",1
+I need info on sentiment analysis,0
+Write a FAQ section for feature engineering with 5 commonly asked questions and detailed answers. Each answer should be 2-3 sentences with examples where applicable.,1
+I need info on Python programming,0
+Give me GraphQL details,0
+Write a FAQ section for UI UX design with 5 commonly asked questions and detailed answers. Each answer should be 2-3 sentences with examples where applicable.,1
+DESCRIBE BEHAVIOR DRIVEN DEVELOPMENT,0
+Explain reinforcement learning in simple terms. Provide 3 real-world examples. Use bullet points. Limit your response to 200 words.,1
+Write a FAQ section for transfer learning with 5 commonly asked questions and detailed answers. Each answer should be 2-3 sentences with examples where applicable.,1
+"Create a cheat sheet for serverless computing. Include: quick definition, key formulas or rules, top 5 tips, common errors, and one practical example. Keep it concise.",1
+Compare and contrast machine learning operations with its closest alternative. Present your answer in a table format with at least 5 comparison points.,1
+WHAT ABOUT HUMAN COMPUTER INTERACTION,0
+linear algebra explain,0
+"Analyze how transfer learning has evolved over the last decade. Cover: major milestones, current state, and predictions for the next 5 years. Use specific dates and examples.",1
+"Write about climate change from both a theoretical and practical perspective. Include mathematical foundations if applicable, real-world implementations, and future trends. Use structured headings.",1
+WebSocket programming explain,0
+Tell me about Docker containers,0
+"Explain speech recognition as if teaching a 10-year-old. Use simple analogies, 2 examples from daily life, and keep it under 150 words.",1
+Give me space exploration details,0
+"Explain behavior driven development in exactly 5 paragraphs: introduction, history, how it works, applications, and future scope. Each paragraph should be 3-4 sentences.",1
+I need info on compiler design,0
+define cloud computing,0
+Plz explain functional programming,0
+"Write a blog post about image recognition for a tech audience. Include: catchy introduction, 3 main sections with subheadings, code snippet if relevant, and a call to action.",1
+functional programming?,0
+describe agile methodology,0
+Write a FAQ section for network security with 5 commonly asked questions and detailed answers. Each answer should be 2-3 sentences with examples where applicable.,1
+"You are a senior software engineer. Explain robotics with code examples, best practices, and common pitfalls. Structure your answer with clear sections.",1
+"Write a blog post about DevOps for a tech audience. Include: catchy introduction, 3 main sections with subheadings, code snippet if relevant, and a call to action.",1
+"Analyze how internet of things has evolved over the last decade. Cover: major milestones, current state, and predictions for the next 5 years. Use specific dates and examples.",1
+object oriented programming,0
+"Provide a beginner-friendly introduction to business intelligence. Cover: what it is, why it matters, how it works, and 3 practical use cases. Use numbered lists.",1
+"Write a comprehensive guide on virtual reality. Include: prerequisites, step-by-step learning path, recommended resources, and common mistakes to avoid. Format with bullet points.",1
+"Provide a critical analysis of artificial intelligence. Discuss 3 strengths, 3 weaknesses, current research trends, and your recommendation. Support with examples.",1
+Explain cloud computing in simple terms. Provide 3 real-world examples. Use bullet points. Limit your response to 200 words.,1
+"You are mentoring a junior developer. Explain 5G technology with hands-on examples, common mistakes beginners make, and tips for mastering the concept. Use a friendly tone.",1
+"Describe project management in a structured format. Include an introduction, 3 main points with examples, and a conclusion. Target audience: college students.",1
+"Explain recommendation systems as if teaching a 10-year-old. Use simple analogies, 2 examples from daily life, and keep it under 150 words.",1
+human computer interaction overview,0
+"Explain blockchain technology as if teaching a 10-year-old. Use simple analogies, 2 examples from daily life, and keep it under 150 words.",1
+Need to know algorithms,0
+"Analyze how cloud computing has evolved over the last decade. Cover: major milestones, current state, and predictions for the next 5 years. Use specific dates and examples.",1
+Compare and contrast WebSocket programming with its closest alternative. Present your answer in a table format with at least 5 comparison points.,1
+Compare and contrast data visualization with its closest alternative. Present your answer in a table format with at least 5 comparison points.,1
+signal processing explain,0
+virtual reality explain,0
+Write a FAQ section for clean code principles with 5 commonly asked questions and detailed answers. Each answer should be 2-3 sentences with examples where applicable.,1
+I need info on WebSocket programming,0
+What about image recognition,0
+API development overview,0
+"Write a blog post about smart cities for a tech audience. Include: catchy introduction, 3 main sections with subheadings, code snippet if relevant, and a call to action.",1
+"Summarize agile methodology in a professional report format. Include: executive summary, methodology, findings (3 key points), and recommendations. Limit to 300 words.",1
+"Create a study guide for software engineering that includes: key terminology (5 terms), core concepts (3 points), practice questions (3 questions), and further reading suggestions.",1
+"Provide a critical analysis of microservices. Discuss 3 strengths, 3 weaknesses, current research trends, and your recommendation. Support with examples.",1
+Plz explain REST API design,0
+explain containerization,0
+Tell me about sustainable development,0
+need to know climate change,0
+Explain CI CD pipelines in simple terms. Provide 3 real-world examples. Use bullet points. Limit your response to 200 words.,1
+Tell me about digital marketing,0
+Write a FAQ section for parallel computing with 5 commonly asked questions and detailed answers. Each answer should be 2-3 sentences with examples where applicable.,1
+Explain algorithms in simple terms. Provide 3 real-world examples. Use bullet points. Limit your response to 200 words.,1
+"You are preparing exam notes. Explain optimization techniques covering all important aspects a student should know. Include definitions, diagrams description, and 3 potential exam questions.",1
+tell me about blockchain technology,0
+"Explain clean code principles in exactly 5 paragraphs: introduction, history, how it works, applications, and future scope. Each paragraph should be 3-4 sentences.",1
+what about data science,0
+Plz explain ecommerce,0
+Explain augmented reality in simple terms. Provide 3 real-world examples. Use bullet points. Limit your response to 200 words.,1
+Give me clean code principles details,0
+Need to know cloud storage,0
+"Create a cheat sheet for healthcare technology. Include: quick definition, key formulas or rules, top 5 tips, common errors, and one practical example. Keep it concise.",1
+"Explain human computer interaction using the following structure: Problem it solves, How it works internally, When to use it, When NOT to use it, and one real project example.",1
+"Create a study guide for autonomous vehicles that includes: key terminology (5 terms), core concepts (3 points), practice questions (3 questions), and further reading suggestions.",1
+"You are preparing exam notes. Explain CI CD pipelines covering all important aspects a student should know. Include definitions, diagrams description, and 3 potential exam questions.",1
+"Provide a critical analysis of machine learning. Discuss 3 strengths, 3 weaknesses, current research trends, and your recommendation. Support with examples.",1
+Define data warehousing,0
+"Write about Linux administration from both a theoretical and practical perspective. Include mathematical foundations if applicable, real-world implementations, and future trends. Use structured headings.",1
+i need info on distributed systems,0
+Kubernetes orchestration,0
+Plz explain artificial intelligence,0
+"Write about functional programming from both a theoretical and practical perspective. Include mathematical foundations if applicable, real-world implementations, and future trends. Use structured headings.",1
+"You are mentoring a junior developer. Explain autonomous vehicles with hands-on examples, common mistakes beginners make, and tips for mastering the concept. Use a friendly tone.",1
+Write a FAQ section for data warehousing with 5 commonly asked questions and detailed answers. Each answer should be 2-3 sentences with examples where applicable.,1
+"Create a cheat sheet for blockchain technology. Include: quick definition, key formulas or rules, top 5 tips, common errors, and one practical example. Keep it concise.",1
+"Write a comprehensive guide on data structures. Include: prerequisites, step-by-step learning path, recommended resources, and common mistakes to avoid. Format with bullet points.",1
+I need info on functional programming,0
+software engineering?,0
+Help me with database management,0
+Compare and contrast web development with its closest alternative. Present your answer in a table format with at least 5 comparison points.,1
+Explain data warehousing in simple terms. Provide 3 real-world examples. Use bullet points. Limit your response to 200 words.,1
+"Design a lesson plan for teaching natural language processing to beginners. Include: learning objectives (3), key vocabulary (5 words), activities (2), and assessment criteria.",1
+Explain natural language processing in simple terms. Provide 3 real-world examples. Use bullet points. Limit your response to 200 words.,1
+Talk about robotics,0
+Plz explain data structures,0
+What about mobile app development,0
+What about statistical analysis,0
+SOFTWARE ENGINEERING,0
+"Create a study guide for graph theory that includes: key terminology (5 terms), core concepts (3 points), practice questions (3 questions), and further reading suggestions.",1
+Compare and contrast mobile app development with its closest alternative. Present your answer in a table format with at least 5 comparison points.,1
+algorithms explain,0
+"Explain ethical hacking using the following structure: Problem it solves, How it works internally, When to use it, When NOT to use it, and one real project example.",1
+what is feature engineering,0
+"Explain software architecture in exactly 5 paragraphs: introduction, history, how it works, applications, and future scope. Each paragraph should be 3-4 sentences.",1
+DOCKER CONTAINERS?,0
+i need info on healthcare technology,0
+Describe probability theory,0
+Something about augmented reality,0
+TELL ME ABOUT DISTRIBUTED SYSTEMS,0
+INFO TRANSFER LEARNING,0
+i need info on design patterns,0
+Talk about version control,0
+Talk about renewable energy,0
+"Write a blog post about serverless computing for a tech audience. Include: catchy introduction, 3 main sections with subheadings, code snippet if relevant, and a call to action.",1
+"Summarize statistical analysis in a professional report format. Include: executive summary, methodology, findings (3 key points), and recommendations. Limit to 300 words.",1
+"Explain ecommerce as if teaching a 10-year-old. Use simple analogies, 2 examples from daily life, and keep it under 150 words.",1
+Write a FAQ section for chatbot development with 5 commonly asked questions and detailed answers. Each answer should be 2-3 sentences with examples where applicable.,1
+"You are preparing exam notes. Explain speech recognition covering all important aspects a student should know. Include definitions, diagrams description, and 3 potential exam questions.",1
+deep learning?,0
+"Design a lesson plan for teaching edge computing to beginners. Include: learning objectives (3), key vocabulary (5 words), activities (2), and assessment criteria.",1
+serverless computing,0
+"Explain blockchain technology as if teaching a 10-year-old. Use simple analogies, 2 examples from daily life, and keep it under 150 words.",1
+"You are mentoring a junior developer. Explain Python programming with hands-on examples, common mistakes beginners make, and tips for mastering the concept. Use a friendly tone.",1
+"Explain compiler design with a focus on problem-solving. Present 3 common problems in this area, explain each solution step-by-step, and highlight best practices.",1
+"Provide a critical analysis of machine learning operations. Discuss 3 strengths, 3 weaknesses, current research trends, and your recommendation. Support with examples.",1
+algorithms overview,0
+"Create a cheat sheet for compiler design. Include: quick definition, key formulas or rules, top 5 tips, common errors, and one practical example. Keep it concise.",1
+"Explain software architecture using the following structure: Problem it solves, How it works internally, When to use it, When NOT to use it, and one real project example.",1
+"Explain concurrent programming in exactly 5 paragraphs: introduction, history, how it works, applications, and future scope. Each paragraph should be 3-4 sentences.",1
+"Provide a beginner-friendly introduction to anomaly detection. Cover: what it is, why it matters, how it works, and 3 practical use cases. Use numbered lists.",1
+"Explain photosynthesis using the following structure: Problem it solves, How it works internally, When to use it, When NOT to use it, and one real project example.",1
+"You are a senior software engineer. Explain cybersecurity with code examples, best practices, and common pitfalls. Structure your answer with clear sections.",1
+"Write about continuous integration from both a theoretical and practical perspective. Include mathematical foundations if applicable, real-world implementations, and future trends. Use structured headings.",1
+"Explain data science with a focus on problem-solving. Present 3 common problems in this area, explain each solution step-by-step, and highlight best practices.",1
+Describe microservices,0
+"Create a cheat sheet for software architecture. Include: quick definition, key formulas or rules, top 5 tips, common errors, and one practical example. Keep it concise.",1
+"You are mentoring a junior developer. Explain cryptocurrency with hands-on examples, common mistakes beginners make, and tips for mastering the concept. Use a friendly tone.",1
+Talk about penetration testing,0
+"You are preparing exam notes. Explain CI CD pipelines covering all important aspects a student should know. Include definitions, diagrams description, and 3 potential exam questions.",1
+Plz explain web development,0
+I need info on compiler design,0
+Describe calculus applications,0
+"Write a comprehensive guide on natural language processing. Include: prerequisites, step-by-step learning path, recommended resources, and common mistakes to avoid. Format with bullet points.",1
+Give me text summarization details,0
+"Explain optimization techniques as if teaching a 10-year-old. Use simple analogies, 2 examples from daily life, and keep it under 150 words.",1
+Compare and contrast digital marketing with its closest alternative. Present your answer in a table format with at least 5 comparison points.,1
+"Describe cloud computing in a structured format. Include an introduction, 3 main points with examples, and a conclusion. Target audience: college students.",1
+Need to know DevOps,0
+"Explain information security in exactly 5 paragraphs: introduction, history, how it works, applications, and future scope. Each paragraph should be 3-4 sentences.",1
+You are an expert professor. Explain model deployment to a beginner student step-by-step with practical examples and a summary at the end.,1
+I need info on data visualization,0
+"You are preparing exam notes. Explain DevOps covering all important aspects a student should know. Include definitions, diagrams description, and 3 potential exam questions.",1
+"Explain business intelligence using the following structure: Problem it solves, How it works internally, When to use it, When NOT to use it, and one real project example.",1
+Need to know ecommerce,0
+"You are mentoring a junior developer. Explain database management with hands-on examples, common mistakes beginners make, and tips for mastering the concept. Use a friendly tone.",1
+explain fraud detection,0
+"Write a comprehensive guide on distributed systems. Include: prerequisites, step-by-step learning path, recommended resources, and common mistakes to avoid. Format with bullet points.",1
+"Provide a critical analysis of Python programming. Discuss 3 strengths, 3 weaknesses, current research trends, and your recommendation. Support with examples.",1
+INFO SMART CITIES,0
+I need info on sentiment analysis,0
+"Write a detailed explanation of 5G technology covering: 1) Definition, 2) Key concepts, 3) Real-world applications, 4) Advantages and disadvantages. Use clear headings.",1
+"Explain the concept of reinforcement learning using the Feynman technique. Break it down into simple parts, use an analogy, and give one example. Limit to 200 words.",1
+"Design a lesson plan for teaching distributed systems to beginners. Include: learning objectives (3), key vocabulary (5 words), activities (2), and assessment criteria.",1
+Plz explain Kubernetes orchestration,0
+I need info on ecommerce,0
+I need info on CI CD pipelines,0
+Talk about speech recognition,0
+"You are a technical writer. Create documentation for CI CD pipelines including: overview, getting started guide, key features, and troubleshooting section. Use markdown formatting.",1
+"Write a detailed explanation of continuous integration covering: 1) Definition, 2) Key concepts, 3) Real-world applications, 4) Advantages and disadvantages. Use clear headings.",1
+Plz explain penetration testing,0
+Plz explain test driven development,0
+Write a FAQ section for financial technology with 5 commonly asked questions and detailed answers. Each answer should be 2-3 sentences with examples where applicable.,1
+"Describe behavior driven development in a structured format. Include an introduction, 3 main points with examples, and a conclusion. Target audience: college students.",1
+"Write a detailed explanation of embedded systems covering: 1) Definition, 2) Key concepts, 3) Real-world applications, 4) Advantages and disadvantages. Use clear headings.",1
+"Create a cheat sheet for linear algebra. Include: quick definition, key formulas or rules, top 5 tips, common errors, and one practical example. Keep it concise.",1
+Explain programming paradigms in simple terms. Provide 3 real-world examples. Use bullet points. Limit your response to 200 words.,1
+"Provide a beginner-friendly introduction to text summarization. Cover: what it is, why it matters, how it works, and 3 practical use cases. Use numbered lists.",1
+"Write a detailed explanation of game development covering: 1) Definition, 2) Key concepts, 3) Real-world applications, 4) Advantages and disadvantages. Use clear headings.",1
+"Analyze how predictive analytics has evolved over the last decade. Cover: major milestones, current state, and predictions for the next 5 years. Use specific dates and examples.",1
+"Provide a critical analysis of computer networking. Discuss 3 strengths, 3 weaknesses, current research trends, and your recommendation. Support with examples.",1
+"Explain GraphQL using the following structure: Problem it solves, How it works internally, When to use it, When NOT to use it, and one real project example.",1
+"Explain containerization in exactly 5 paragraphs: introduction, history, how it works, applications, and future scope. Each paragraph should be 3-4 sentences.",1
+"Design a lesson plan for teaching smart cities to beginners. Include: learning objectives (3), key vocabulary (5 words), activities (2), and assessment criteria.",1
+"You are a technical writer. Create documentation for smart cities including: overview, getting started guide, key features, and troubleshooting section. Use markdown formatting.",1
+Write a FAQ section for project management with 5 commonly asked questions and detailed answers. Each answer should be 2-3 sentences with examples where applicable.,1
+Write about algorithms,0
+write about ethical hacking,0
+"Describe cybersecurity in a structured format. Include an introduction, 3 main points with examples, and a conclusion. Target audience: college students.",1
+something about cybersecurity,0
+"Describe embedded systems in a structured format. Include an introduction, 3 main points with examples, and a conclusion. Target audience: college students.",1
+Talk about genetic engineering,0
+"Write a blog post about predictive analytics for a tech audience. Include: catchy introduction, 3 main sections with subheadings, code snippet if relevant, and a call to action.",1
+Help me with chatbot development,0
+"Explain the concept of Linux administration using the Feynman technique. Break it down into simple parts, use an analogy, and give one example. Limit to 200 words.",1
+Write a FAQ section for programming paradigms with 5 commonly asked questions and detailed answers. Each answer should be 2-3 sentences with examples where applicable.,1
+"Write a detailed explanation of penetration testing covering: 1) Definition, 2) Key concepts, 3) Real-world applications, 4) Advantages and disadvantages. Use clear headings.",1
+"Explain the concept of API development using the Feynman technique. Break it down into simple parts, use an analogy, and give one example. Limit to 200 words.",1
+"Explain digital forensics with a focus on problem-solving. Present 3 common problems in this area, explain each solution step-by-step, and highlight best practices.",1
+"Create a study guide for smart cities that includes: key terminology (5 terms), core concepts (3 points), practice questions (3 questions), and further reading suggestions.",1
+Need to know penetration testing,0
+Compare and contrast information security with its closest alternative. Present your answer in a table format with at least 5 comparison points.,1
+Talk about serverless computing,0
+"Explain Kubernetes orchestration in exactly 5 paragraphs: introduction, history, how it works, applications, and future scope. Each paragraph should be 3-4 sentences.",1
+"Explain microservices using the following structure: Problem it solves, How it works internally, When to use it, When NOT to use it, and one real project example.",1
+"You are preparing exam notes. Explain chatbot development covering all important aspects a student should know. Include definitions, diagrams description, and 3 potential exam questions.",1
+Talk about mobile app development,0
+"You are mentoring a junior developer. Explain network security with hands-on examples, common mistakes beginners make, and tips for mastering the concept. Use a friendly tone.",1
+"Write a comprehensive guide on Python programming. Include: prerequisites, step-by-step learning path, recommended resources, and common mistakes to avoid. Format with bullet points.",1
+microservices,0
+I need info on object oriented programming,0
+"Write about edge computing from both a theoretical and practical perspective. Include mathematical foundations if applicable, real-world implementations, and future trends. Use structured headings.",1
+Tell me about business intelligence,0
+"You are mentoring a junior developer. Explain computer vision with hands-on examples, common mistakes beginners make, and tips for mastering the concept. Use a friendly tone.",1
+"Provide a beginner-friendly introduction to augmented reality. Cover: what it is, why it matters, how it works, and 3 practical use cases. Use numbered lists.",1
+augmented reality?,0
+EXPLAIN DATA MINING,0
+"Write about internet of things from both a theoretical and practical perspective. Include mathematical foundations if applicable, real-world implementations, and future trends. Use structured headings.",1
+"Provide a beginner-friendly introduction to test driven development. Cover: what it is, why it matters, how it works, and 3 practical use cases. Use numbered lists.",1
+"Create a cheat sheet for healthcare technology. Include: quick definition, key formulas or rules, top 5 tips, common errors, and one practical example. Keep it concise.",1
+"Write a blog post about sustainable development for a tech audience. Include: catchy introduction, 3 main sections with subheadings, code snippet if relevant, and a call to action.",1
+"Describe space exploration in a structured format. Include an introduction, 3 main points with examples, and a conclusion. Target audience: college students.",1
+"Explain quantum computing using the following structure: Problem it solves, How it works internally, When to use it, When NOT to use it, and one real project example.",1
+"Create a study guide for functional programming that includes: key terminology (5 terms), core concepts (3 points), practice questions (3 questions), and further reading suggestions.",1
+Compare and contrast cloud computing with its closest alternative. Present your answer in a table format with at least 5 comparison points.,1
+What about sustainable development,0
+Compare and contrast data science with its closest alternative. Present your answer in a table format with at least 5 comparison points.,1
+"You are a senior software engineer. Explain version control with code examples, best practices, and common pitfalls. Structure your answer with clear sections.",1
+"Explain the concept of GraphQL using the Feynman technique. Break it down into simple parts, use an analogy, and give one example. Limit to 200 words.",1
+I need info on containerization,0
+"Describe microservices in a structured format. Include an introduction, 3 main points with examples, and a conclusion. Target audience: college students.",1
+Help me with smart cities,0
+What is API development,0
+"You are mentoring a junior developer. Explain predictive analytics with hands-on examples, common mistakes beginners make, and tips for mastering the concept. Use a friendly tone.",1
+"Summarize computer vision in a professional report format. Include: executive summary, methodology, findings (3 key points), and recommendations. Limit to 300 words.",1
+programming paradigms?,0
+Describe business intelligence,0
+Need to know Linux administration,0
+"Explain containerization as if teaching a 10-year-old. Use simple analogies, 2 examples from daily life, and keep it under 150 words.",1
+Write about genetic engineering,0
+Info software engineering,0
+"You are a senior software engineer. Explain ethical hacking with code examples, best practices, and common pitfalls. Structure your answer with clear sections.",1
+I need info on DevOps,0
+neural networks,0
+what is cryptocurrency,0
+Explain database management in simple terms. Provide 3 real-world examples. Use bullet points. Limit your response to 200 words.,1
+Need to know predictive analytics,0
+"You are mentoring a junior developer. Explain healthcare technology with hands-on examples, common mistakes beginners make, and tips for mastering the concept. Use a friendly tone.",1
+supply chain management overview,0
+plz explain sentiment analysis,0
+explain robotics,0
+Explain API development,0
+"Provide a beginner-friendly introduction to GraphQL. Cover: what it is, why it matters, how it works, and 3 practical use cases. Use numbered lists.",1
+write about mobile app development,0
+"Design a lesson plan for teaching calculus applications to beginners. Include: learning objectives (3), key vocabulary (5 words), activities (2), and assessment criteria.",1
+"Write a detailed explanation of recommendation systems covering: 1) Definition, 2) Key concepts, 3) Real-world applications, 4) Advantages and disadvantages. Use clear headings.",1
+Write a FAQ section for deep learning with 5 commonly asked questions and detailed answers. Each answer should be 2-3 sentences with examples where applicable.,1
+"Design a lesson plan for teaching algorithms to beginners. Include: learning objectives (3), key vocabulary (5 words), activities (2), and assessment criteria.",1
+Brief on version control,0
+"Write about smart cities from both a theoretical and practical perspective. Include mathematical foundations if applicable, real-world implementations, and future trends. Use structured headings.",1
+Brief on reinforcement learning,0
+Something about probability theory,0
+Plz explain distributed systems,0
+Something about WebSocket programming,0
+Tell me about machine learning,0
+Give me neural networks details,0
+"Explain information security with a focus on problem-solving. Present 3 common problems in this area, explain each solution step-by-step, and highlight best practices.",1
+something about rest api design,0
+"Write about object oriented programming from both a theoretical and practical perspective. Include mathematical foundations if applicable, real-world implementations, and future trends. Use structured headings.",1
+Give me network security details,0
+"You are a senior software engineer. Explain linear algebra with code examples, best practices, and common pitfalls. Structure your answer with clear sections.",1
+Need to know calculus applications,0
+"Write about edge computing from both a theoretical and practical perspective. Include mathematical foundations if applicable, real-world implementations, and future trends. Use structured headings.",1
+"Write about human computer interaction from both a theoretical and practical perspective. Include mathematical foundations if applicable, real-world implementations, and future trends. Use structured headings.",1
+Explain predictive analytics in simple terms. Provide 3 real-world examples. Use bullet points. Limit your response to 200 words.,1
+Tell me about cryptocurrency,0
+"Explain business intelligence with a focus on problem-solving. Present 3 common problems in this area, explain each solution step-by-step, and highlight best practices.",1
+TELL ME ABOUT PROGRAMMING PARADIGMS,0
+"Create a cheat sheet for Linux administration. Include: quick definition, key formulas or rules, top 5 tips, common errors, and one practical example. Keep it concise.",1
+Need to know functional programming,0
+help me with etl processes,0
+"Write a comprehensive guide on big data. Include: prerequisites, step-by-step learning path, recommended resources, and common mistakes to avoid. Format with bullet points.",1
+"Write a blog post about software architecture for a tech audience. Include: catchy introduction, 3 main sections with subheadings, code snippet if relevant, and a call to action.",1
+Compare and contrast Linux administration with its closest alternative. Present your answer in a table format with at least 5 comparison points.,1
+I NEED INFO ON DIGITAL FORENSICS,0
+GIVE ME WINDOWS SERVER DETAILS,0
+Info transfer learning,0
+"Write a detailed explanation of financial technology covering: 1) Definition, 2) Key concepts, 3) Real-world applications, 4) Advantages and disadvantages. Use clear headings.",1
+"Write a blog post about clean code principles for a tech audience. Include: catchy introduction, 3 main sections with subheadings, code snippet if relevant, and a call to action.",1
+info docker containers,0
+"Design a lesson plan for teaching cloud computing to beginners. Include: learning objectives (3), key vocabulary (5 words), activities (2), and assessment criteria.",1
+describe functional programming,0
+"Summarize recommendation systems in a professional report format. Include: executive summary, methodology, findings (3 key points), and recommendations. Limit to 300 words.",1
+"Write a comprehensive guide on anomaly detection. Include: prerequisites, step-by-step learning path, recommended resources, and common mistakes to avoid. Format with bullet points.",1
+describe data mining,0
+"You are preparing exam notes. Explain chatbot development covering all important aspects a student should know. Include definitions, diagrams description, and 3 potential exam questions.",1
+SOMETHING ABOUT DIGITAL FORENSICS,0
+Write about clean code principles,0
+Explain microservices in simple terms. Provide 3 real-world examples. Use bullet points. Limit your response to 200 words.,1
+"Summarize clean code principles in a professional report format. Include: executive summary, methodology, findings (3 key points), and recommendations. Limit to 300 words.",1
+"Design a lesson plan for teaching probability theory to beginners. Include: learning objectives (3), key vocabulary (5 words), activities (2), and assessment criteria.",1
+DESCRIBE PROGRAMMING PARADIGMS,0
+EXPLAIN CYBERSECURITY,0
+Brief on design patterns,0
+"Create a study guide for business intelligence that includes: key terminology (5 terms), core concepts (3 points), practice questions (3 questions), and further reading suggestions.",1
+"Explain mobile app development as if teaching a 10-year-old. Use simple analogies, 2 examples from daily life, and keep it under 150 words.",1
+Tell me about Python programming,0
+Talk about web development,0
+Define time series analysis,0
+Define business intelligence,0
+Describe reinforcement learning,0
+"Provide a beginner-friendly introduction to Python programming. Cover: what it is, why it matters, how it works, and 3 practical use cases. Use numbered lists.",1
+"Create a study guide for speech recognition that includes: key terminology (5 terms), core concepts (3 points), practice questions (3 questions), and further reading suggestions.",1
+need to know operating systems,0
+"You are a senior software engineer. Explain Windows server with code examples, best practices, and common pitfalls. Structure your answer with clear sections.",1
+tell me about programming paradigms,0
+What is space exploration,0
+What is statistical analysis,0
+You are an expert professor. Explain Python programming to a beginner student step-by-step with practical examples and a summary at the end.,1
+need to know operating systems,0
+WHAT ABOUT PENETRATION TESTING,0
+Tell me about software engineering,0
+"Analyze how supply chain management has evolved over the last decade. Cover: major milestones, current state, and predictions for the next 5 years. Use specific dates and examples.",1
+"Explain digital marketing with a focus on problem-solving. Present 3 common problems in this area, explain each solution step-by-step, and highlight best practices.",1
+"Design a lesson plan for teaching cloud computing to beginners. Include: learning objectives (3), key vocabulary (5 words), activities (2), and assessment criteria.",1
+"Explain recommendation systems using the following structure: Problem it solves, How it works internally, When to use it, When NOT to use it, and one real project example.",1
+cloud computing overview,0
+Write a FAQ section for augmented reality with 5 commonly asked questions and detailed answers. Each answer should be 2-3 sentences with examples where applicable.,1
+"Analyze how cybersecurity has evolved over the last decade. Cover: major milestones, current state, and predictions for the next 5 years. Use specific dates and examples.",1
+"Explain the concept of autonomous vehicles using the Feynman technique. Break it down into simple parts, use an analogy, and give one example. Limit to 200 words.",1
+Describe 5G technology,0
+"Summarize network security in a professional report format. Include: executive summary, methodology, findings (3 key points), and recommendations. Limit to 300 words.",1
+"Write about internet of things from both a theoretical and practical perspective. Include mathematical foundations if applicable, real-world implementations, and future trends. Use structured headings.",1
+"Explain behavior driven development in exactly 5 paragraphs: introduction, history, how it works, applications, and future scope. Each paragraph should be 3-4 sentences.",1
+"Explain photosynthesis as if teaching a 10-year-old. Use simple analogies, 2 examples from daily life, and keep it under 150 words.",1
+Define software architecture,0
+"Write a detailed explanation of REST API design covering: 1) Definition, 2) Key concepts, 3) Real-world applications, 4) Advantages and disadvantages. Use clear headings.",1
+"Explain machine learning with a focus on problem-solving. Present 3 common problems in this area, explain each solution step-by-step, and highlight best practices.",1
+Info machine learning operations,0
+"Provide a critical analysis of linear algebra. Discuss 3 strengths, 3 weaknesses, current research trends, and your recommendation. Support with examples.",1
+"Explain fraud detection in exactly 5 paragraphs: introduction, history, how it works, applications, and future scope. Each paragraph should be 3-4 sentences.",1
+genetic engineering,0
+I need info on artificial intelligence,0
+"Write a comprehensive guide on project management. Include: prerequisites, step-by-step learning path, recommended resources, and common mistakes to avoid. Format with bullet points.",1
+"You are a technical writer. Create documentation for operating systems including: overview, getting started guide, key features, and troubleshooting section. Use markdown formatting.",1
+"Provide a critical analysis of ethical hacking. Discuss 3 strengths, 3 weaknesses, current research trends, and your recommendation. Support with examples.",1
+Describe digital forensics,0
+Something about penetration testing,0
+Brief on calculus applications,0
+CI CD pipelines explain,0
+HELP ME WITH MACHINE LEARNING,0
+Write about information security,0
+You are an expert professor. Explain sentiment analysis to a beginner student step-by-step with practical examples and a summary at the end.,1
+need to know ci cd pipelines,0
+talk about embedded systems,0
+"You are a technical writer. Create documentation for human computer interaction including: overview, getting started guide, key features, and troubleshooting section. Use markdown formatting.",1
+Talk about DevOps,0
+NEED TO KNOW DATA VISUALIZATION,0
+Describe augmented reality,0
+"Write about calculus applications from both a theoretical and practical perspective. Include mathematical foundations if applicable, real-world implementations, and future trends. Use structured headings.",1
+What is fraud detection,0
+"Summarize version control in a professional report format. Include: executive summary, methodology, findings (3 key points), and recommendations. Limit to 300 words.",1
+need to know information security,0
+"Explain machine learning in exactly 5 paragraphs: introduction, history, how it works, applications, and future scope. Each paragraph should be 3-4 sentences.",1
+"You are mentoring a junior developer. Explain calculus applications with hands-on examples, common mistakes beginners make, and tips for mastering the concept. Use a friendly tone.",1
+speech recognition,0
+Explain statistical analysis,0
+Describe fraud detection,0
+Talk about Windows server,0
+What about electric vehicles,0
+Info REST API design,0
+Write about text summarization,0
+Talk about space exploration,0
+Write a FAQ section for Windows server with 5 commonly asked questions and detailed answers. Each answer should be 2-3 sentences with examples where applicable.,1
+Something about API development,0
+"Provide a beginner-friendly introduction to clean code principles. Cover: what it is, why it matters, how it works, and 3 practical use cases. Use numbered lists.",1
+Need to know object oriented programming,0
+genetic engineering,0
+describe continuous integration,0
+Write a FAQ section for predictive analytics with 5 commonly asked questions and detailed answers. Each answer should be 2-3 sentences with examples where applicable.,1
+Help me with functional programming,0
+help me with penetration testing,0
